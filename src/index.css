@@ -1,0 +1,93 @@
+:root {
+    --yellow: #ecc84c;
+    --green: #154839;
+    --blue: #84bae6;
+    --black: #333;
+    --white: #fafafa;
+
+    scroll-behavior: smooth;
+}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+    color: inherit;
+	font-size: 16px;
+	box-sizing: border-box;
+    word-break: break-word;
+	font-family: 'Montserrat', sans-serif;
+    transition:
+        150ms ease color,
+        150ms ease box-shadow,
+        150ms ease border-color,
+        150ms ease background-color;
+}
+body, html {
+	overflow-x: hidden;
+}
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: var(--white);
+}
+main {
+	flex: 1 1 auto;
+}
+.wrap {
+	margin: auto;
+	padding: 6vh 3vw;
+}
+p, li {
+	font-size: 1rem;
+	line-height: 1.9rem;
+	margin: 1.3rem 0.3rem;
+}
+p a {
+    display: inline;
+    padding: 0 0.3rem;
+    /* color: var(--accent-one); */
+    font-size: inherit;
+    border: 1.3px solid transparent;
+    border-bottom-color: currentColor;
+}
+h1 {
+    font-size: 3rem;
+    color: var(--black);
+}
+img {
+    width: 100%;
+}
+.header > div {
+    display: flex;
+    flex-grow: 1;
+}
+.button {
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+}
+.button:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.button.border {
+    border: 1px solid currentColor;
+    border-radius: 3px;
+}
+.yellow {
+    background-color: var(--yellow);
+    padding: 1rem;
+}
+.green {
+    height: 100%;
+    background-color: var(--green);
+    padding: 1rem;
+}
+.blue {
+    background-color: var(--blue);
+    padding: 1rem;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
