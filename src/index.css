@@ -1,18 +1,19 @@
 :root {
     --white: #eee;
     --black: #222;
-    
+
     /*
     --blue: #84bae6;
     --green: #154839;
     --yellow: #ecc84c;
     */
 
-    --brown: #564138ff;
-    --blue: #2e86abff;
-    --yellow: #f6f5aeff;
-    --orange: #d38b5dff;
-    --green: #588157ff;
+    --brown: #564138;
+    --blue: #2e86ab;
+    /* --yellow: #f6f5ae; */
+    --yellow: #f0ee7b;
+    --orange: #d38b5d;
+    --green: #588157;
 
     scroll-behavior: smooth;
 }
@@ -66,6 +67,10 @@ h1 {
 }
 img {
     width: 100%;
+}
+.cover {
+    max-height: 50vh;
+    overflow: hidden;
 }
 .header > div {
     display: flex;
