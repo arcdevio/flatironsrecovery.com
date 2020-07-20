@@ -102,6 +102,17 @@ img {
     padding: 1rem;
 }
 
+
+.brown {
+    background-color: var(--brown);
+    padding: 1rem;
+}
+
+.orange {
+    background-color: var(--orange);
+    padding: 1rem;
+}
+
 /* .black-f {
     color: var(--black);
 }
