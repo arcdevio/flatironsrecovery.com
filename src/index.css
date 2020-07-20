@@ -1,9 +1,18 @@
 :root {
-    --yellow: #ecc84c;
-    --green: #154839;
+    --white: #eee;
+    --black: #222;
+    
+    /*
     --blue: #84bae6;
-    --black: #333;
-    --white: #fafafa;
+    --green: #154839;
+    --yellow: #ecc84c;
+    */
+
+    --brown: #564138ff;
+    --blue: #2e86abff;
+    --yellow: #f6f5aeff;
+    --orange: #d38b5dff;
+    --green: #588157ff;
 
     scroll-behavior: smooth;
 }
@@ -87,6 +96,14 @@ img {
     background-color: var(--blue);
     padding: 1rem;
 }
+
+/* .black-f {
+    color: var(--black);
+}
+.white-f {
+    color: var(--white);
+} */
+
 .row {
     margin-left: 0;
     margin-right: 0;
