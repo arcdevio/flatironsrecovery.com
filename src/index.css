@@ -1,5 +1,6 @@
 :root {
     --white: #eee;
+    --muted: #e1e1e1;
     --black: #222;
 
     /*
@@ -81,6 +82,21 @@ img {
 }
 ul {
     margin-left: 0.8rem;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+header a {
+    margin: 0 1rem;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 3px;
+}
+header a:hover {
+    background-color: var(--muted);
 }
 .cover {
     max-height: 50vh;
