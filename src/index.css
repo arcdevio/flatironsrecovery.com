@@ -49,7 +49,6 @@ footer {
 footer div {
     padding-top: 0.5rem;
 }
-
 h1 {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -62,6 +61,8 @@ h2 {
     font-weight: 300;
 }
 h3 {
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
     font-weight: 100;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -162,7 +163,6 @@ ul {
     color: rgb(var(--white));
     background-color: rgb(var(--green));
 }
-
 .blue {
     color: rgb(var(--white));
     background-color: rgb(var(--blue));
@@ -172,5 +172,6 @@ ul {
     background-color: rgb(var(--brown));
 }
 .orange {
+    color: rgb(var(--white));
     background-color: rgb(var(--orange));
 }
