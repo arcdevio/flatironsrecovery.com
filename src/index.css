@@ -11,6 +11,7 @@
     */
 
     --white: 238, 238, 238;
+    --muted: 218, 218, 218;
     --black: 34, 34, 34;
     --brown: 86, 65, 56;
     --blue: 46, 134, 171;
@@ -64,14 +65,18 @@ h3 {
     margin: 1rem 0.5rem;
     padding: 0.5rem;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+h4 {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1.2rem;
     text-transform: uppercase;
 }
 hr {
     background: white;
-}
-a {
-    text-decoration: none;
 }
 p, li {
     font-size: 1.1rem;
@@ -174,4 +179,35 @@ ul {
 .orange {
     color: rgb(var(--white));
     background-color: rgb(var(--orange));
+}
+
+/*accordion*/
+.accordion {
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 0px rgb(var(--muted));
+}
+.accordion > div {
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion-head {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid rgb(var(--muted));
+}
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    border-bottom: 1px solid rgb(var(--muted));
+}
+.accordion-body:nth-last-child(1) {
+    border-bottom: none;
+}
+.accordion-body p, .accordion-body li {
+    margin: 1.5rem;
+}
+.accordion-body.active {
+    max-height: 1500px;
 }

@@ -5,3 +5,18 @@
     font.href = 'https://fonts.googleapis.com/css?family=Raleway:300,500,800';
     document.head.appendChild(font);
 }());
+
+(function() {
+    'use strict';
+
+    var triggers = document.querySelectorAll('.icon');
+
+    var faqs = Array.prototype.slice.call(triggers);
+
+    faqs.forEach(function (faq) {
+        faq.addEventListener('click', function (e) {
+            // faq.lastElementChild.classList.toggle('active');
+            faq.parentNode.parentNode.nextElementSibling.classList.toggle('active');
+        });
+    });
+}());
