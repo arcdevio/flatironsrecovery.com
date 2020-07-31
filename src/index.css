@@ -43,16 +43,23 @@ body {
 }
 footer {
     padding: 0.5rem 0;
-    color: rgb(var(--white));
-    background-color: rgb(var(--brown));
+    color: rgb(var(--black));
+    background-color: rgb(var(--yellow));
 }
 footer div {
     padding-top: 0.5rem;
 }
+
 h1 {
     margin: 0.5rem;
     padding: 0.5rem;
+    font-size: 4rem;
+}
+h2 {
+    margin: 0.5rem;
+    padding: 0.5rem;
     font-size: 3rem;
+    font-weight: 300;
 }
 h3 {
     font-weight: 100;
@@ -65,12 +72,15 @@ hr {
 a {
     text-decoration: none;
 }
-p {
+p, li {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
     margin: 0.5rem;
     padding: 0.5rem;
+    font-weight: 100;
 }
-p, li {
-    line-height: 1.5rem;
+ul {
+    margin-left: 1.6rem;
 }
 .nav-bar {
 	color: white;
@@ -86,9 +96,9 @@ p, li {
     background: rgb(var(--blue));
 }
 .wrap {
-    max-width: 1440px;
 	margin: auto;
 	padding: 6vh 3vw;
+    max-width: 1440px;
 }
 .gradient {
     width: 100%;
@@ -105,22 +115,27 @@ p, li {
     color: rgb(var(--white));
     background-repeat: no-repeat;
     background-position: top right;
-    background-image: url("/assets/images/flatirons.jpg");
+    background-image: url("/assets/images/flatirons-range.jpg");
 }
 
 .button {
-    text-decoration: none;
     padding: 1rem;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
     display: inline-block;
 }
 .button:hover {
     background-color: rgba(0,0,0,0.1);
 }
 .button.border {
-    border-radius: 3px;
     border: 1px solid currentColor;
 }
-
+.main {
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
 .badge {
 	padding: 3px;
     border: none;
