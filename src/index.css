@@ -88,6 +88,19 @@ p, li {
 ul {
     margin-left: 1.6rem;
 }
+input, textarea, select {
+    width: 100%;
+    background: none;
+    border: 1px solid rgb(var(--black));
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+object {
+    height: 100px;
+}
 .nav-bar {
 	color: white;
     background: rgb(var(--blue));
