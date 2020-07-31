@@ -148,7 +148,7 @@ header {
     color: rgb(var(--white));
     background-repeat: no-repeat;
     background-position: top right;
-    background-image: url("/assets/images/flatirons-range.jpg");
+    background-image: url("/assets/images/cover.jpg");
 }
 
 .button {
