@@ -101,6 +101,18 @@ label {
 object {
     height: 100px;
 }
+img {
+    width: 100%;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(var(--muted));
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
 .nav-bar {
 	color: white;
     background: rgb(var(--blue));
