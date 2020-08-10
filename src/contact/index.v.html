@@ -11,22 +11,58 @@
 </div>
 
 <div class="row wrap">
-    <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-3 orange">
-            <div>
-                <h3>Contact Info:</h3>
-                <p><strong>Phone:</strong><br /> 555.555.5555</p>
-                <p><strong>Email:</strong><br /> info@flatironsrecovery.com</p>
-                <p><strong>Address:</strong><br /> 123 abs st, Boulder CO</p>
-                <p>whether you're ready to begin your recovery, or you just want to learn more, please reach out today!</p>
-                <p>Social</p>
+    <div class="col-xs-12 col-sm-4 col-md-3 orange">
+        <div>
+            <h3>Contact Info:</h3>
+            <p><strong>Phone:</strong><br /> 555.555.5555</p>
+            <p><strong>Email:</strong><br /> info@flatironsrecovery.com</p>
+            <p><strong>Address:</strong><br /> 123 abs st, Boulder CO</p>
+            <p>whether you're ready to begin your recovery, or you just want to learn more, please reach out today!</p>
+            <p>Social</p>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9">
+        <h2>Contact Flatirons Recovery</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <form class="row">
+            <div class="col-xs-12">
+                <h3>send us a message</h3>
             </div>
-        </div>
-        <div class="col-xs">
-            <h2>Contact Flatirons Recovery</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <!-- { "partial": "/assets/partials/contact.p.html" } -->
-        </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>first name</label>
+                <input type="text" name="firstName" required>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>last name</label>
+                <input type="text" name="lastName" required>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <label>email</label>
+                <input type="text" name="email">
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <label>phone</label>
+                <input type="text" name="phone" required>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <label>how'd you hear about us</label>
+                <select name="referral">
+                    <option value="none">none</option>
+                    <option value="social media">social media</option>
+                    <option value="doctor/therapist">doctor/therapist</option>
+                    <option value="hospital system">hospital system</option>
+                    <option value="search engine">search engine</option>
+                    <option value="advertisement">advertisement</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <div class="col-xs-12">
+                <label>message</label>
+                <textarea name="message" required></textarea>
+            </div>
+            <div class="col-xs-12">
+                <button class="button orange" type="submit">Submit</button>
+            </div>
+        </form>
     </div>
 </div>
