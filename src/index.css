@@ -159,8 +159,7 @@ header {
     color: rgb(var(--black));
     background-repeat: no-repeat;
     background-position: top right;
-    background-image: url("/assets/images/cover.svg");
-    background-image: url("/assets/images/flatirons-winter.jpg");
+    background-image: url("/assets/images/cover.jpg");
 }
 
 .button {
