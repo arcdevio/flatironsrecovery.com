@@ -14,23 +14,36 @@
 </head>
 <body>
 
-    <header>
-		<nav class="nav-bar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/admissions">Admissions</a></li>
-                <li><a href="/therapy">Therapy</a></li>
-                <li><a href="/mental-health">Mental Health</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="row middle-xs center-xs">
+        <div class="col-xs-6 col-md-2 start-xs">
+            <object class="logo" data="/assets/logo.svg" type="image/svg+xml">flatirons recovery logo</object>
+        </div>
+        <div class="col-xs-12 col-md-8 left-xs last-xs">
+    		<nav class="nav-bar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li>
+                        <a>More</a>
+                        <ul>
+                            <li><a href="/admissions">Admissions</a></li>
+                            <li><a href="/therapy">Therapy</a></li>
+                            <li><a href="/mental-health">Mental Health</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-xs-6 col-md-2 end-xs last-md">
+            <a class="phone" href="tel:000-000-0000">000-000-0000</a>
+        </div>
     </header>
 
     <main>
         <style>
-    .nav-bar, .nav-bar > ul, .nav-icon > div, .nav-list-main, .nav-list-sub {
-        background: rgb(var(--yellow));
+    .main h1, .main h3 {
+        color: rgb(var(--black));
     }
 </style>
 
@@ -68,6 +81,8 @@
         </div>
     </div>
 </div>
+<div class="wrap">
+
     <h3>Major Depressive Disorder</h3>
     <p>Major Depressive Disorder is one of the most common mental health disorders in the United States. According to the National Institute for Mental Health, among U.S. adults aged 18 or older in 2017, an estimated 17.3 million adults in the United States reported at least one major depressive episode. This number represented 7.1% of all U.S. adults. Further, the prevalence of major depressive episode was higher among adult females (8.7%) compared to males (5.3%), and the prevalence of adults with a major depressive episode was highest among individuals aged 18-25 (13.1%).</p>
     <p>Typical symptoms of depression include depressed mood for most of the day, nearly every day; diminished pleasure in activities; significant weight loss; difficulty sleeping or sleeping too much; fatigue and/or loss of energy nearly every day; feelings of worthlessness; and recurrent thoughts of death.</p>
@@ -142,7 +157,6 @@
 				<a href="https://arcdev.io/" rel="noopener">Arc i/o</a>
 			</div>
         </div>
-
     </footer>
 
 </body>

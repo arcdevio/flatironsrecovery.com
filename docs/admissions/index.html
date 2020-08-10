@@ -14,32 +14,43 @@
 </head>
 <body>
 
-    <header>
-		<nav class="nav-bar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/admissions">Admissions</a></li>
-                <li><a href="/therapy">Therapy</a></li>
-                <li><a href="/mental-health">Mental Health</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="row middle-xs center-xs">
+        <div class="col-xs-6 col-md-2 start-xs">
+            <object class="logo" data="/assets/logo.svg" type="image/svg+xml">flatirons recovery logo</object>
+        </div>
+        <div class="col-xs-12 col-md-8 left-xs last-xs">
+    		<nav class="nav-bar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li>
+                        <a>More</a>
+                        <ul>
+                            <li><a href="/admissions">Admissions</a></li>
+                            <li><a href="/therapy">Therapy</a></li>
+                            <li><a href="/mental-health">Mental Health</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-xs-6 col-md-2 end-xs last-md">
+            <a class="phone" href="tel:000-000-0000">000-000-0000</a>
+        </div>
     </header>
 
     <main>
-        <style>
-    .nav-bar, .nav-bar > ul, .nav-icon > div, .nav-list-main, .nav-list-sub {
-        background: rgb(var(--green));
-    }
-</style>
-
+        
 <div class="main green">
     <div class="wrap">
         <div class="row center-xs">
             <div class="col-xs">
                 <h1>ADMISSIONS</h1>
                 <h3>learn more about our addiction treatment center</h3>
+
+                <a class="button border" href="#">Call NOW</a>
+
             </div>
         </div>
     </div>
@@ -61,6 +72,70 @@
 
         </div>
     </div>
+</div>
+
+<div class="blue">
+    <div class="wrap">
+        <div class="row center-xs">
+            <h1>FAQ's</h1>
+        </div>
+        <div class="row center-xs">
+            <div class="col-xs">
+                <h4>Consider reading our frequentyl asked questions. Learn more about Flatirons Recovery Center.</h4>
+
+                <a class="button border" href="/about#faq">More About Us</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wrap">
+
+    
+<form class="row">
+    <div class="col-xs-12">
+        <h2>Verify Insurance</h2>
+        <h4>Complete form below to verify insurance benefits.</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>first name</label>
+        <input type="text" name="firstName" required>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>last name</label>
+        <input type="text" name="lastName" required>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+        <label>email</label>
+        <input type="text" name="email">
+    </div>
+    <div class="col-xs-12 col-sm-4">
+        <label>phone</label>
+        <input type="text" name="phone" required>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+        <label>how'd you hear about us</label>
+        <select name="referral">
+            <option value="none">none</option>
+            <option value="social media">social media</option>
+            <option value="doctor/therapist">doctor/therapist</option>
+            <option value="hospital system">hospital system</option>
+            <option value="search engine">search engine</option>
+            <option value="advertisement">advertisement</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+
+    <div class="col-xs-12">
+        <label>message</label>
+        <textarea name="message" required></textarea>
+    </div>
+
+    <div class="col-xs-12">
+        <button class="button orange" type="submit">Submit</button>
+    </div>
+</form>
+
 </div>
 
     </main>
@@ -116,7 +191,6 @@
 				<a href="https://arcdev.io/" rel="noopener">Arc i/o</a>
 			</div>
         </div>
-
     </footer>
 
 </body>

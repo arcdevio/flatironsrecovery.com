@@ -19,7 +19,7 @@
     --orange: 211, 139, 93;
     --green: 88, 129, 87;
 
-    --gradient: 135deg, rgba(var(--yellow), 0.7) 0%, rgba(var(--orange), 0.7) 30%, rgba(var(--blue), 0.7) 100%;
+    --gradient: 135deg, rgba(var(--yellow), 0.9) 0%, rgba(var(--orange), 0.9) 30%, rgba(var(--blue), 0.9) 100%;
 
     scroll-behavior: smooth;
 }
@@ -29,17 +29,15 @@
 	outline: none;
     color: inherit;
 	font-size: 16px;
-    max-width: 100%;
 	box-sizing: border-box;
-    word-break: break-word;
 	font-family: 'Raleway', sans-serif;
     transition:
         background ease-in-out 200ms,
         background-color ease-in-out 200ms;
 }
 body, html {
-    /* width: 100%; */
-	/* overflow-x: hidden; */
+    width: 100%;
+	overflow-x: hidden;
 }
 body {
 	display: flex;
@@ -47,13 +45,13 @@ body {
 	flex-direction: column;
 	background-color: rgb(var(--white));
 }
+header, main, footer {
+    width: 100%;
+}
 footer {
     padding: 0.5rem 0;
     color: rgb(var(--white));
     background-color: rgb(var(--brown));
-}
-footer div {
-    padding-top: 0.5rem;
 }
 h1 {
     margin: 0.5rem;
@@ -113,9 +111,6 @@ label {
     font-size: 0.9rem;
     text-transform: capitalize;
 }
-object {
-    height: 100px;
-}
 img {
     width: 100%;
 }
@@ -141,15 +136,20 @@ header {
     font-weight: 500;
     text-decoration: none;
 }
-.nav-bar.active > .nav-tool,
-.nav-bar.active > .nav-list-sub,
-.nav-bar.active > .nav-list-main {
-    background-color: rgba(var(--white), 0.9);
+.nav-bar.active .nav-tool,
+.nav-bar .nav-list-sub,
+.nav-bar.active .nav-list-main {
+    background: rgba(var(--white), 0.9);
 }
 .wrap {
 	margin: auto;
 	padding: 6vh 3vw;
     max-width: 1440px;
+}
+.main {
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
 }
 .gradient {
     width: 100%;
@@ -168,6 +168,12 @@ header {
     background-position: top right;
     background-image: url("/assets/images/cover.jpg");
 }
+.logo {
+    height: 5rem;
+}
+.phone {
+    font-size: 1.2rem;
+}
 
 .button {
     padding: 1rem;
@@ -184,11 +190,7 @@ header {
 .button.border {
     border: 1px solid currentColor;
 }
-.main {
-    display: flex;
-    justify-content: center;
-    min-height: 400px;
-}
+
 .badge {
 	padding: 3px;
     border: none;
@@ -207,7 +209,7 @@ header {
 }
 
 .yellow {
-    color: rgb(var(--white));
+    color: rgb(var(--black));
     background-color: rgb(var(--yellow));
 }
 .green {
@@ -218,12 +220,12 @@ header {
     color: rgb(var(--white));
     background-color: rgb(var(--blue));
 }
-
 .brown {
+    color: rgb(var(--white));
     background-color: rgb(var(--brown));
 }
 .orange {
-    color: rgb(var(--white));
+    color: rgb(var(--black));
     background-color: rgb(var(--orange));
 }
 
