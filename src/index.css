@@ -258,3 +258,9 @@ header {
 .accordion-body.active {
     max-height: 1500px;
 }
+.half-bg {
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/wooden-fence.jpg');
+}
