@@ -170,6 +170,9 @@ header {
 .logo-full {
     height: 5rem;
 }
+.logo-icon {
+    height: 18rem;
+}
 .phone {
     font-size: 1.2rem;
 }
