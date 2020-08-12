@@ -171,7 +171,7 @@ header {
     height: 5rem;
 }
 .logo-icon {
-    height: 18rem;
+    height: 15rem;
 }
 .phone {
     font-size: 1.2rem;
@@ -262,8 +262,8 @@ header {
     max-height: 1500px;
 }
 .half-bg {
+    min-height: 400px;
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    background-image: url('/assets/images/wooden-fence.jpg');
 }
