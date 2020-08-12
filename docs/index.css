@@ -37,7 +37,7 @@
 }
 body, html {
     width: 100%;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 body {
 	display: flex;
@@ -65,10 +65,10 @@ h2 {
     font-weight: 300;
 }
 h3 {
-    margin: 1rem 0.5rem;
     padding: 0.5rem;
     font-weight: 100;
     font-size: 1.6rem;
+    margin: 1rem 0.5rem;
     text-transform: uppercase;
 }
 h4 {
@@ -76,9 +76,6 @@ h4 {
     padding: 0.5rem;
     font-weight: 500;
     font-size: 1.3rem;
-}
-hr {
-    background: white;
 }
 p, li {
     font-size: 1.1rem;
@@ -107,7 +104,6 @@ input, textarea, select {
 label {
     display: block;
     margin: 0.5rem;
-    /* padding: 0.5rem; */
     font-size: 0.9rem;
     text-transform: capitalize;
 }
@@ -115,19 +111,22 @@ img {
     width: 100%;
 }
 hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid rgb(var(--muted));
-    box-sizing: content-box;
     height: 0;
+    margin-top: 1rem;
     overflow: visible;
+    margin-bottom: 1rem;
+    box-sizing: content-box;
+    border-top: 1px solid rgb(var(--muted));
 }
 header {
     top: 0;
     left: 0;
     width: 100%;
     position: absolute;
+}
+.row {
+    margin: 0;
 }
 .nav-bar {
 	color: rgb(var(--black));
@@ -168,8 +167,11 @@ header {
     background-position: top right;
     background-image: url("/assets/images/cover.jpg");
 }
-.logo {
+.logo-full {
     height: 5rem;
+}
+.logo-icon {
+    height: 15rem;
 }
 .phone {
     font-size: 1.2rem;
@@ -258,4 +260,10 @@ header {
 }
 .accordion-body.active {
     max-height: 1500px;
+}
+.half-bg {
+    min-height: 400px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
