@@ -45,6 +45,9 @@ body {
 	flex-direction: column;
 	background-color: rgb(var(--white));
 }
+main {
+    flex: 1 0;
+}
 header, main, footer {
     width: 100%;
 }
