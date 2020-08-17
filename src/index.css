@@ -152,6 +152,7 @@ object {
     display: flex;
     height: 500px;
     justify-content: center;
+    color: rgb(var(--black));
     background-position: center;
 }
 .main h3 {
