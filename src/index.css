@@ -128,6 +128,18 @@ header {
 object {
     width: 100%;
 }
+summary {
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+details {
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    border: 1px solid rgb(var(--muted));
+}
+
 .row {
     margin: 0;
 }
