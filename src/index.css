@@ -179,6 +179,7 @@ details {
     justify-content: center;
     color: rgb(var(--black));
     background-position: center;
+    background-repeat: no-repeat;
 }
 .main h3 {
     color: rgb(var(--white));

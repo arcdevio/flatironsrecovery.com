@@ -45,6 +45,9 @@ body {
 	flex-direction: column;
 	background-color: rgb(var(--white));
 }
+main {
+    flex: 1 0;
+}
 header, main, footer {
     width: 100%;
 }
@@ -86,6 +89,9 @@ p, li {
 }
 ul {
     margin-left: 1.6rem;
+}
+em, a, li {
+    font-size: inherit;
 }
 textarea {
     min-height: 100px;
@@ -166,6 +172,7 @@ details {
     justify-content: center;
     color: rgb(var(--black));
     background-position: center;
+    background-repeat: no-repeat;
 }
 .main h3 {
     color: rgb(var(--white));
