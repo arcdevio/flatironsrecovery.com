@@ -90,6 +90,9 @@ p, li {
 ul {
     margin-left: 1.6rem;
 }
+em, a, li {
+    font-size: inherit;
+}
 textarea {
     min-height: 100px;
     max-height: 250px;
