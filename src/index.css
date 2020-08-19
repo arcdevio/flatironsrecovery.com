@@ -254,7 +254,7 @@ details {
     border: none;
     text-decoration: none;
     display: inline-block;
-	filter: brightness(10);
+	/* filter: brightness(10); */
 }
 .badge object {
 	width: 48px;
@@ -264,7 +264,7 @@ details {
 }
 .badge:hover {
     background: none;
-    filter: brightness(1);
+    /* filter: brightness(1); */
 }
 
 .yellow {
