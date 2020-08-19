@@ -30,6 +30,7 @@
     color: inherit;
 	font-size: 16px;
 	box-sizing: border-box;
+    overflow-wrap: break-word;
 	font-family: 'Raleway', sans-serif;
     transition:
         background ease-in-out 200ms,
@@ -150,9 +151,6 @@ details {
     margin: 0;
     margin-right: 0;
     margin-left: 0;
-}
-.col-xs, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    padding: 0;
 }
 .nav-bar {
 	color: rgb(var(--black));
