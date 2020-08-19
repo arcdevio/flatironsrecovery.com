@@ -54,8 +54,8 @@ header, main, footer {
 }
 footer {
     padding: 0.5rem 0;
-    color: rgb(var(--white));
-    background-color: rgb(var(--brown));
+    color: rgb(var(--black));
+    background-color: rgb(var(--yellow));
 }
 h1 {
     margin: 0.5rem;
@@ -252,8 +252,9 @@ details {
 .badge {
 	padding: 3px;
     border: none;
-	filter: brightness(10);
     text-decoration: none;
+    display: inline-block;
+	/* filter: brightness(10); */
 }
 .badge object {
 	width: 48px;
@@ -263,7 +264,7 @@ details {
 }
 .badge:hover {
     background: none;
-    filter: brightness(1);
+    /* filter: brightness(1); */
 }
 
 .yellow {
@@ -285,6 +286,10 @@ details {
 .orange {
     color: rgb(var(--black));
     background-color: rgb(var(--orange));
+}
+.black {
+    color: rgb(var(--white));
+    background-color: rgb(var(--black));
 }
 
 /*accordion*/
