@@ -10,14 +10,20 @@
 }());
 
 (function(){'use strict';
+    var hideBanner = window.sessionStorage.getItem('hideBanner');
 
-    var triggers = document.querySelectorAll('.icon');
-    var faqs = Array.prototype.slice.call(triggers);
+    var header = document.querySelector('header');
+    var close = document.querySelector('.close');
 
-    faqs.forEach(function (faq) {
-        faq.addEventListener('click', function (e) {
-            faq.parentNode.parentNode.nextElementSibling.classList.toggle('active');
-        });
+    if (!hideBanner) {
+        header.style.top = '60px';
+        close.parentNode.style.display = 'flex';
+    };
+
+    close.addEventListener('click', function (e) {
+        window.sessionStorage.setItem('hideBanner', 'hide');
+
+        header.style.top = '0';
+        e.target.parentNode.style.display = 'none';
     });
-
 }());

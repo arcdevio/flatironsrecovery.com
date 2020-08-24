@@ -328,3 +328,8 @@ details {
     background-position: right;
     background-repeat: no-repeat;
 }
+.banner {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
