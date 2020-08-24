@@ -54,8 +54,8 @@ header, main, footer {
 }
 footer {
     padding: 0.5rem 0;
-    color: rgb(var(--white));
-    background-color: rgb(var(--brown));
+    color: rgb(var(--black));
+    background-color: rgb(var(--yellow));
 }
 h1 {
     margin: 0.5rem;
@@ -285,6 +285,10 @@ details {
 .orange {
     color: rgb(var(--black));
     background-color: rgb(var(--orange));
+}
+.black {
+    color: rgb(var(--white));
+    background-color: rgb(var(--black));
 }
 
 /*accordion*/
