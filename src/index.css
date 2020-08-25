@@ -163,12 +163,15 @@ details {
 }
 .nav-bar {
 	color: rgb(var(--black));
-    border-top: 1px solid rgb(var(--black));
-    border-bottom: 1px solid rgb(var(--black));
+    /* border-top: 1px solid rgb(var(--black)); */
+    border-bottom: 1px solid rgba(var(--black), 0.1);
 }
 .nav-bar a {
     font-weight: 500;
     text-decoration: none;
+}
+.nav-list-sub {
+    min-width: 170px;
 }
 .nav-bar.active .nav-tool,
 .nav-bar .nav-list-sub,
