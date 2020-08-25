@@ -299,6 +299,10 @@ details {
     color: rgb(var(--black));
     background-color: rgb(var(--orange));
 }
+.muted {
+    color: rgb(var(--black));
+    background-color: rgb(var(--muted));
+}
 .black {
     color: rgb(var(--white));
     background-color: rgb(var(--black));
