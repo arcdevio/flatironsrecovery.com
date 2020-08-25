@@ -16,14 +16,12 @@
     var close = document.querySelector('.close');
 
     if (!hideBanner) {
-        header.style.top = '60px';
         close.parentNode.style.display = 'flex';
     };
 
     close.addEventListener('click', function (e) {
         window.sessionStorage.setItem('hideBanner', 'hide');
 
-        header.style.top = '0';
         e.target.parentNode.style.display = 'none';
     });
 }());
