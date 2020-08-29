@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Admissions | Flatirons Recovery</title>
-    
+
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -20,6 +20,10 @@
     <script src="/index.js" defer></script>
 </head>
 <body>
+    <div class="banner">
+        <p>How Flatirons is handling COVID-19 <a href="/covid-19">Learn More</a>.</p>
+        <button class="blue close">X</button>
+    </div>
 
     <header>
         <div class="row middle-xs">
@@ -29,7 +33,7 @@
                 </a>
             </div>
             <div class="col-xs-6 end-xs">
-    			<a class="phone" href="tel:000-000-0000" data-track="click: phone, click">
+    			<a class="phone" href="tel:719-626-1295" data-track="click: phone, click">
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="11rem" height="2rem">
                         <mask id="mask">
                             <rect x="0" y="0" width="100%" height="100%" fill="white" />
@@ -40,7 +44,7 @@
                                 text-anchor="middle"
                                 fill="rgb(var(--blak))"
                                 dominant-baseline="middle"
-                                >000-000-0000</text>
+                                >719-626-1295</text>
                         </mask>
                         <rect x="0" y="0" rx="2" width="100%" height="100%" mask="url(#mask)" fill="rgb(var(--black))" />
                     </svg>
@@ -126,51 +130,166 @@
 </div>
 
 <div class="wrap">
-    
-<form class="row">
-    <div class="col-xs-12">
-        <h2>Verify Insurance</h2>
-        <h4>Complete form below to verify insurance benefits.</h4>
-    </div>
-    <div class="col-xs-12 col-sm-6">
-        <label>first name</label>
-        <input type="text" name="firstName" required>
-    </div>
-    <div class="col-xs-12 col-sm-6">
-        <label>last name</label>
-        <input type="text" name="lastName" required>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-        <label>email</label>
-        <input type="text" name="email">
-    </div>
-    <div class="col-xs-12 col-sm-4">
-        <label>phone</label>
-        <input type="text" name="phone" required>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-        <label>how'd you hear about us</label>
-        <select name="referral">
-            <option value="none">none</option>
-            <option value="social media">social media</option>
-            <option value="doctor/therapist">doctor/therapist</option>
-            <option value="hospital system">hospital system</option>
-            <option value="search engine">search engine</option>
-            <option value="advertisement">advertisement</option>
-            <option value="other">other</option>
-        </select>
-    </div>
+<h2>Verify Insurance</h2>
+<h4>Complete form below to verify insurance benefits.</h4>
+<form>
+    <field>
+        <legend>Contact</legend>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <label>Contact Name
+                    <input name="contactName" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Contact Phone
+                    <input type="number" name="contactPhone" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Contact Email
+                    <input type="email" name="contactEmail" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Communication Preference
+                    <select name="communicationPreference" required>
+                        <option selected disabled>none</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+    </field>
 
-    <div class="col-xs-12">
-        <label>message</label>
-        <textarea name="message" required></textarea>
-    </div>
+    <field>
+        <legend>Patient</legend>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <label>Patient Name
+                    <input name="patientName" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Patient Gender
+                    <input name="patientGender" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Patient Street
+                    <input name="patientStreet" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Patient City
+                    <input name="patientCity" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Patient State
+                    <input name="patientState" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Patient Zip
+                    <input type="number" name="patientZip" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Patient Phone
+                    <input type="phone" name="patientPhone" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Patient DOB
+                    <input type="date" name="patientDob" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Patient SSN
+                    <input type="date" name="patientSsn" required>
+                </label>
+            </div>
+        </div>
+    </field>
+
+    <field>
+        <legend>Primary Insured</legend>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <label>Primary Name
+                    <input name="primaryName">
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Primary DOB
+                    <input type="date" name="primaryDob">
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Primary Street
+                    <input name="primaryStreet">
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Primary City
+                    <input name="primaryCity">
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Primary State
+                    <input name="primaryState">
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Primary Zip
+                    <input type="number" name="primaryZip">
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Primary Phone
+                    <input type="number" name="primaryPhone">
+                </label>
+            </div>
+        </div>
+    </field>
+
+    <field>
+        <legend>Insurance</legend>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <label>Insurance Company
+                    <input name="insuranceCompany" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Policy Number
+                    <input name="policyNumber" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Group Number
+                    <input name="groupNumber" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Provider Phone
+                    <input type="number" name="providerPhone" required>
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Policy Effective
+                    <input type="date" name="policyEffective" required>
+                </label>
+            </div>
+        </div>
+    </field>
 
     <div class="col-xs-12">
         <button class="button orange" type="submit">Submit</button>
     </div>
 </form>
-
 </div>
 
     </main>
@@ -204,7 +323,7 @@
                 <br>
 				<h3>Contact</h3>
                 <br>
-				<a href="tel:000-000-0000" data-track="click: phone, click">000-000-0000</a>
+				<a href="tel:719-626-1295" data-track="click: phone, click">719-626-1295</a>
 				<br>
 				<br>
 				<a href="mailto:contact@flatironsrecovery.com" data-track="click: email, click">contact@flatironsrecovery.com</a>
