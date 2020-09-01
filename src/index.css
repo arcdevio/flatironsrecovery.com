@@ -245,6 +245,10 @@ details {
     font-size: 1.5rem;
 }
 
+.phone svg path {
+    display: none;
+}
+
 .button {
     padding: 1rem;
     border: none;
@@ -363,4 +367,17 @@ details {
 }
 .banner > button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .phone svg text {
+        display: none;
+    }
+
+    .phone svg path {
+        display: initial;
+    }
+    .phone svg {
+        width: 2rem;
+    }
 }
