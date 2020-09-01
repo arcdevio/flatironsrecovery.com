@@ -34,7 +34,7 @@
             </div>
             <div class="col-xs-6 end-xs">
     			<a class="phone" href="tel:719-626-1295" data-track="click: phone, click">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="11rem" height="2rem">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="11rem" height="2rem" viewBox="0 0 24 24">
                         <mask id="mask">
                             <rect x="0" y="0" width="100%" height="100%" fill="white" />
                             <text
@@ -45,6 +45,7 @@
                                 fill="rgb(var(--blak))"
                                 dominant-baseline="middle"
                                 >719-626-1295</text>
+                                <path x="50%" y="50%" fill="rgb(var(--blak))" d="M6,10c1.44,2.83,3.76,5.14,6.59,6.59l2.2,-2.2c0.27,-0.27,0.67,-0.36,1.02,-0.24c1.12,0.37,2.33,0.57,3.57,0.57c0.55,0,1,0.45,1,1v4.28c0,0.55,-0.45,1,-1,1c-9.39,0,-17,-7.61,-17,-17c0,-0.55,0.45,-1,1,-1h3.5c0.55,0,1,0.45,1,1c0,1.25,0.2,2.45,0.57,3.57c0.11,0.35,0.03,0.74,-0.25,1.02l-2.2,2.2z"/>
                         </mask>
                         <rect x="0" y="0" rx="2" width="100%" height="100%" mask="url(#mask)" fill="rgb(var(--black))" />
                     </svg>
@@ -58,7 +59,17 @@
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/treatment">Treatment</a></li>
-                        <li><a href="/addiction">Addiction</a></li>
+                        <li>
+                            <a>Addictions</a>
+                            <ul>
+                                <a href="/addiction/alcohol/">Alcohol</a>
+                                <a href="/addiction/heroin/">Heroin</a>
+                                <a href="/addiction/cocaine/">Cocaine</a>
+                                <a href="/addiction/marijuana/">Marijuana</a>
+                                <a href="/addiction/methamphetamine/">Methamphetamine</a>
+                                <a href="/addiction/prescription-medication/">Prescription Medication</a>
+                            </ul>
+                        </li>
                         <li>
                             <a>More</a>
                             <ul>
@@ -99,18 +110,19 @@
 
 <div class="row wrap">
     <div class="col-xs-12 col-sm-4 col-md-3">
-        <div class="orange">
-            <h3>Contact Information:</h3>
-            <p><strong>Phone:</strong><br /> <a href="tel:719-626-1295" data-track="click: phone, click">719-626-1295</a></p>
-            <p><strong>Email:</strong><br /> <a href="mailto:contact@flatironsrecovery.com">contact@flatironsrecovery.com</a></p>
-            <p><strong>Address:</strong><br /> <a href="#">123 abs st, Boulder CO</a></p>
-            <p>whether you're ready to begin your recovery, or you just want to learn more, please reach out today!</p>
-            <p>Social</p>
-        </div>
+        <h3>Contact Information:</h3>
+        <hr>
+        <p><strong>Phone:</strong><br /> <a href="tel:719-626-1295" data-track="click: phone, click">719-626-1295</a></p>
+        <p><strong>Email:</strong><br /> <a href="mailto:contact@flatironsrecovery.com">contact@flatironsrecovery.com</a></p>
+        <p><strong>Address:</strong><br /> <a href="#">123 abs st, Boulder CO</a></p>
+        <p>Whether you're ready to begin your recovery, or you just want to learn more, please reach out today!</p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9">
         <h2>Contact Flatirons Recovery</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>To begin your healing journey from addiction simply fill out the form below, or call us at <a href="tel:719-626-1295" data-track="click: phone, click">719-626-1295</a>.</p>
+        <p>A member of our Admissions Team will reply to you as soon as possible to begin the Admissions process, and to answer any questions that you may have about our treatment program.</p>
+        <p>If you’d like Flatirons Recovery to <a href="/admission#verify-insurance">verify your insurance</a>, you may do that here.</p>
+
         <form class="row">
             <div class="col-xs-12">
                 <h3>send us a message</h3>
@@ -148,9 +160,10 @@
                 <textarea name="message" required></textarea>
             </div>
             <div class="col-xs-12">
-                <button class="button orange" type="submit">Submit</button>
+                <button class="button blue" type="submit">Submit</button>
             </div>
         </form>
+        <p><em>All information submitted to us is completely confidential. See our <a href="/confidentiality">HIPPA Confidentiality Policy</a>.</em></p>
     </div>
 </div>
 

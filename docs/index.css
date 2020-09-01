@@ -171,7 +171,7 @@ details {
     text-decoration: none;
 }
 .nav-list-sub {
-    min-width: 170px;
+    min-width: 220px;
 }
 .nav-bar.active .nav-tool,
 .nav-bar .nav-list-sub,
@@ -243,6 +243,10 @@ details {
 }
 .phone svg text {
     font-size: 1.5rem;
+}
+
+.phone svg path {
+    display: none;
 }
 
 .button {
@@ -363,4 +367,17 @@ details {
 }
 .banner > button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .phone svg text {
+        display: none;
+    }
+
+    .phone svg path {
+        display: initial;
+    }
+    .phone svg {
+        width: 2rem;
+    }
 }

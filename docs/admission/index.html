@@ -34,7 +34,7 @@
             </div>
             <div class="col-xs-6 end-xs">
     			<a class="phone" href="tel:719-626-1295" data-track="click: phone, click">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="11rem" height="2rem">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="11rem" height="2rem" viewBox="0 0 24 24">
                         <mask id="mask">
                             <rect x="0" y="0" width="100%" height="100%" fill="white" />
                             <text
@@ -45,6 +45,7 @@
                                 fill="rgb(var(--blak))"
                                 dominant-baseline="middle"
                                 >719-626-1295</text>
+                                <path x="50%" y="50%" fill="rgb(var(--blak))" d="M6,10c1.44,2.83,3.76,5.14,6.59,6.59l2.2,-2.2c0.27,-0.27,0.67,-0.36,1.02,-0.24c1.12,0.37,2.33,0.57,3.57,0.57c0.55,0,1,0.45,1,1v4.28c0,0.55,-0.45,1,-1,1c-9.39,0,-17,-7.61,-17,-17c0,-0.55,0.45,-1,1,-1h3.5c0.55,0,1,0.45,1,1c0,1.25,0.2,2.45,0.57,3.57c0.11,0.35,0.03,0.74,-0.25,1.02l-2.2,2.2z"/>
                         </mask>
                         <rect x="0" y="0" rx="2" width="100%" height="100%" mask="url(#mask)" fill="rgb(var(--black))" />
                     </svg>
@@ -58,7 +59,17 @@
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/treatment">Treatment</a></li>
-                        <li><a href="/addiction">Addiction</a></li>
+                        <li>
+                            <a>Addictions</a>
+                            <ul>
+                                <a href="/addiction/alcohol/">Alcohol</a>
+                                <a href="/addiction/heroin/">Heroin</a>
+                                <a href="/addiction/cocaine/">Cocaine</a>
+                                <a href="/addiction/marijuana/">Marijuana</a>
+                                <a href="/addiction/methamphetamine/">Methamphetamine</a>
+                                <a href="/addiction/prescription-medication/">Prescription Medication</a>
+                            </ul>
+                        </li>
                         <li>
                             <a>More</a>
                             <ul>
@@ -129,167 +140,168 @@
     </div>
 </div>
 
-<div class="wrap">
-<h2>Verify Insurance</h2>
-<h4>Complete form below to verify insurance benefits.</h4>
-<form>
-    <field>
-        <legend>Contact</legend>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <label>Contact Name
-                    <input name="contactName" required>
-                </label>
+<div class="wrap" id="verify-insurance">
+    <h2>Verify Insurance</h2>
+    <h4>Complete form below to verify insurance benefits.</h4>
+    <form>
+        <field>
+            <legend>Contact</legend>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <label>Contact Name
+                        <input name="contactName" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Contact Phone
+                        <input type="number" name="contactPhone" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Contact Email
+                        <input type="email" name="contactEmail" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Communication Preference
+                        <select name="communicationPreference" required>
+                            <option selected disabled>none</option>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                        </select>
+                    </label>
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Contact Phone
-                    <input type="number" name="contactPhone" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Contact Email
-                    <input type="email" name="contactEmail" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Communication Preference
-                    <select name="communicationPreference" required>
-                        <option selected disabled>none</option>
-                        <option value="email">Email</option>
-                        <option value="phone">Phone</option>
-                    </select>
-                </label>
-            </div>
-        </div>
-    </field>
+        </field>
 
-    <field>
-        <legend>Patient</legend>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <label>Patient Name
-                    <input name="patientName" required>
-                </label>
+        <field>
+            <legend>Patient</legend>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <label>Patient Name
+                        <input name="patientName" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Patient Gender
+                        <input name="patientGender" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Patient Street
+                        <input name="patientStreet" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Patient City
+                        <input name="patientCity" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Patient State
+                        <input name="patientState" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Patient Zip
+                        <input type="number" name="patientZip" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Patient Phone
+                        <input type="phone" name="patientPhone" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Patient DOB
+                        <input type="date" name="patientDob" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Patient SSN
+                        <input type="date" name="patientSsn" required>
+                    </label>
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Patient Gender
-                    <input name="patientGender" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Patient Street
-                    <input name="patientStreet" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Patient City
-                    <input name="patientCity" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Patient State
-                    <input name="patientState" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Patient Zip
-                    <input type="number" name="patientZip" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Patient Phone
-                    <input type="phone" name="patientPhone" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Patient DOB
-                    <input type="date" name="patientDob" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Patient SSN
-                    <input type="date" name="patientSsn" required>
-                </label>
-            </div>
-        </div>
-    </field>
+        </field>
 
-    <field>
-        <legend>Primary Insured</legend>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <label>Primary Name
-                    <input name="primaryName">
-                </label>
+        <field>
+            <legend>Primary Insured</legend>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <label>Primary Name
+                        <input name="primaryName">
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Primary DOB
+                        <input type="date" name="primaryDob">
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Primary Street
+                        <input name="primaryStreet">
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Primary City
+                        <input name="primaryCity">
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Primary State
+                        <input name="primaryState">
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Primary Zip
+                        <input type="number" name="primaryZip">
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Primary Phone
+                        <input type="number" name="primaryPhone">
+                    </label>
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Primary DOB
-                    <input type="date" name="primaryDob">
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Primary Street
-                    <input name="primaryStreet">
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Primary City
-                    <input name="primaryCity">
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Primary State
-                    <input name="primaryState">
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Primary Zip
-                    <input type="number" name="primaryZip">
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Primary Phone
-                    <input type="number" name="primaryPhone">
-                </label>
-            </div>
-        </div>
-    </field>
+        </field>
 
-    <field>
-        <legend>Insurance</legend>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <label>Insurance Company
-                    <input name="insuranceCompany" required>
-                </label>
+        <field>
+            <legend>Insurance</legend>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <label>Insurance Company
+                        <input name="insuranceCompany" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Policy Number
+                        <input name="policyNumber" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Group Number
+                        <input name="groupNumber" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Provider Phone
+                        <input type="number" name="providerPhone" required>
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <label>Policy Effective
+                        <input type="date" name="policyEffective" required>
+                    </label>
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Policy Number
-                    <input name="policyNumber" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Group Number
-                    <input name="groupNumber" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Provider Phone
-                    <input type="number" name="providerPhone" required>
-                </label>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <label>Policy Effective
-                    <input type="date" name="policyEffective" required>
-                </label>
-            </div>
-        </div>
-    </field>
+        </field>
 
-    <div class="col-xs-12">
-        <button class="button orange" type="submit">Submit</button>
-    </div>
-</form>
+        <div class="col-xs-12">
+            <button class="button blue" type="submit">Submit</button>
+        </div>
+    </form>
+    <p><em>All information submitted to us is completely confidential. See our <a href="/confidentiality">HIPPA Confidentiality Policy</a>.</em></p>
 </div>
 
     </main>
