@@ -239,16 +239,16 @@ details {
     padding: 0.5rem;
 }
 .phone svg {
-    /* display: block; */
+    height: 2rem;
+    width: 10rem;
+    border-radius: 2rem;
 }
 .phone svg text {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
-
 .phone svg path {
     display: none;
 }
-
 .button {
     padding: 1rem;
     border: none;
@@ -370,14 +370,14 @@ details {
 }
 
 @media screen and (max-width: 600px) {
+    .phone svg {
+        width: 2rem;
+        height: 2rem;
+    }
     .phone svg text {
         display: none;
     }
-
     .phone svg path {
         display: initial;
-    }
-    .phone svg {
-        width: 2rem;
     }
 }
