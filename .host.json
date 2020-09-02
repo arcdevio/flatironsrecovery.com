@@ -1,0 +1,14 @@
+{
+	"profile": "arc",
+	"domain": "flatironsrecovery.com",
+	"folder": "dst",
+	"emails": [
+		"contact@flatironsrecovery.com"
+	],
+	"redirects": [
+		[
+			"/foo",
+			"/"
+		]
+	]
+}
