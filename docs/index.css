@@ -171,7 +171,7 @@ details {
     text-decoration: none;
 }
 .nav-list-sub {
-    min-width: 170px;
+    min-width: 220px;
 }
 .nav-bar.active .nav-tool,
 .nav-bar .nav-list-sub,
@@ -207,6 +207,13 @@ details {
     justify-content: center;
     background: linear-gradient(var(--gradient));
 }
+.gradient > div {
+    margin-top: 6rem;
+    text-align: center;
+}
+.gradient > div h3 {
+    border-radius: 6px;
+}
 .cover {
     height: 100vh;
     overflow: hidden;
@@ -239,12 +246,16 @@ details {
     padding: 0.5rem;
 }
 .phone svg {
-    /* display: block; */
+    height: 2rem;
+    width: 10rem;
+    border-radius: 2rem;
 }
 .phone svg text {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
-
+.phone svg path {
+    display: none;
+}
 .button {
     padding: 1rem;
     border: none;
@@ -363,4 +374,29 @@ details {
 }
 .banner > button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .phone svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    .phone svg text {
+        display: none;
+    }
+    .phone svg path {
+        display: initial;
+    }
+
+}
+@media screen and (max-height: 600px) {
+    .main {
+        height: 70vh;
+    }
+    .logo-solid {
+        max-height: 6rem;
+    }
+    .cover h1 {
+        font-size: 2rem;
+    }
 }
