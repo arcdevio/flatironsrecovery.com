@@ -25,3 +25,39 @@
     });
 
 }());
+
+(function(){'use strict';
+    const form = document.querySelector('form');
+
+    if (!form) return;
+
+    const url = 'https://eboi4z4mni.execute-api.us-west-2.amazonaws.com/default/submit';
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+
+        const body = Object.fromEntries(new FormData(form));
+
+        body.$name = body.$name || 'Contact';
+        body.$domain = 'flatironsrecovery.com';
+        body.$to = [
+            'alex.steven.elias@gmail.com'
+        ];
+
+        window.fetch(url, {
+            mode: 'cors',
+            method: 'POST',
+            body: JSON.stringify(body)
+        })
+        .then(response => response.json())
+        .then(data => {
+            form.reset();
+            console.log(data);
+        })
+        .catch(error => {
+            console.log(error);    
+        });
+
+    });
+
+}());
