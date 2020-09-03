@@ -40,9 +40,7 @@
 
         body.$name = body.$name || 'Contact';
         body.$domain = 'flatironsrecovery.com';
-        body.$to = [
-            'alex.steven.elias@gmail.com'
-        ];
+        body.$to = 'alex.steven.elias@gmail.com';
 
         window.fetch(url, {
             mode: 'cors',
