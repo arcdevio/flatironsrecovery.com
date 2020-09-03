@@ -3,19 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "dependencies": {
-    "-": "0.0.1",
+  "devDependencies": {
     "flexboxgrid": "^6.3.1",
-    "g": "^2.0.1",
     "muleify": "^5.4.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "muleify -pw src dev -s dev",
-    "build": "rm -r docs/* && muleify -p src docs"
+    "build": "rm -r dst/* && muleify -p src dst"
   },
   "repository": {
     "type": "git",

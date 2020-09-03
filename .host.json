@@ -1,14 +1,16 @@
 {
 	"profile": "arc",
 	"domain": "flatironsrecovery.com",
-	"folder": "docs",
-	"emails": [
-		"alex.steven.elias@gmail.com"
-	],
+	"folder": "dst",
 	"redirects": [
 		[
-			"/foo",
+			"/redirect",
 			"/"
 		]
-	]
+	],
+	"to": [
+		"alex@arcdev.io",
+		"flatironsrecoverycenter@gmail.com"
+	],
+	"cc": []
 }

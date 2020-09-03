@@ -31,7 +31,7 @@
 
     if (!form) return;
 
-    const url = 'https://eboi4z4mni.execute-api.us-west-2.amazonaws.com/default/submit';
+    const url = 'https://2vaid6dwk1.execute-api.us-west-2.amazonaws.com/submit';
 
     form.addEventListener('submit', e => {
         e.preventDefault();
@@ -40,7 +40,8 @@
 
         body.$name = body.$name || 'Contact';
         body.$domain = 'flatironsrecovery.com';
-        body.$to = 'alex.steven.elias@gmail.com';
+        // body.$to = 'flatironsrecoverycenter@gmail.com';
+        body.$to = 'alex@arcdev.io';
 
         window.fetch(url, {
             mode: 'cors',
