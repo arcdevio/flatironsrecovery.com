@@ -1,6 +1,6 @@
 <!-- {
     "title": "Recovery Blog | Flatirons Recovery",
-    "description": "",
+    "description": "Our addiction recovery blog, updated regularly with original information about addiction, treatment and much more. Check back often!",
     "keywords": "professional team, compassionate therapists, treatment professional",
     "ogImage": "/about/wooden-fence.jpg"
 } -->
@@ -10,34 +10,41 @@
         background-image: url('/about/wooden-fence.jpg');
     }
     .card {
-        display: block;
+        /* display: flex; */
         margin: 1rem 0;
         color: white;
         min-height: 650px;
         border-radius: 6px;
-        text-decoration: none;
+        position: relative;
         background-color: rgb(var(--blue));
     }
-    .card > div {
-        position: relative;
-        padding: 1rem;
+    .card a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        flex-direction: column;
     }
-    .card > div > div {
-        bottom: 5px;
-        position: absolute;
+    .card a > div {
+        margin: 1rem auto;
+    }
+    .card img {
+        border-radius: 6px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .card > div {
+        padding: 1rem 0.5rem;
     }
     .card button {
         border: none;
         padding: 3px;
         margin: 0 0.5rem;
         z-index: 1;
-        color: rgb(var(--blue));
+        color: rgb(var(--black));
         background-color: white;
     }
-    .card img {
-        border-radius: 6px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
+    .card button:hover {
+        cursor: pointer;
     }
 </style>
 
@@ -52,49 +59,34 @@
 
 <div class="wrap">
     <div class="row">
-        <div class="col-xs-12 col-sm">
-            <a class="card" href="/blog/sample">
-                <img src="/about/wooden-fence.jpg" alt="">
-                <div>
-                    <h3>post title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, reiciendis minus. Fugit nemo molestias accusamus ducimus ab quia, eligendi repudiandae consectetur cupiditate porro delectus neque ad tempore, nulla quisquam modi?</p>
-                    <div class="row between-xs">
-                        <button>author</button>
-                        <button>category</button>
+        <div class="col-xs-12 col-sm-4">
+            <div class="card">
+                <a href="/blog/sample">
+                    <img src="/about/wooden-fence.jpg" alt="">
+                    <div>
+                        <h3>post title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, reiciendis minus. Fugit nemo molestias accusamus ducimus ab quia, eligendi repudiandae consectetur cupiditate porro delectus neque ad tempore, nulla quisquam modi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi impedit</p>
                     </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-xs-12 col-sm">
-            <a class="card" href="/blog/sample">
-                <img src="/about/wooden-fence.jpg" alt="">
-                <div>
-                    <h3>post title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, reiciendis minus. Fugit nemo molestias accusamus ducimus ab delectus neque ad tempore, nulla quisquam modi?</p>
-                </div>
+                </a>
                 <div class="row between-xs">
                     <button>author</button>
                     <button>category</button>
                 </div>
-            </a>
-        </div>
-        <div class="col-xs-12 col-sm">
-            <a class="card" href="/blog/sample">
-                <img src="/about/wooden-fence.jpg" alt="">
-                <div>
-                    <h3>post title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, reiciendis minus. Fugit nemo molestias accusamus ducimus ab quia, eligendi repudiandae consectetur cupiditate porro delectus neque ad tempore, nulla quisquam modi?</p>
-                </div>
-                <div class="row between-xs">
-                    <button>author</button>
-                    <button>category</button>
-                </div>
-            </a>
+            </div>
         </div>
     </div>
 </div>
 
 <script>
-    var buttons = document.querySelectorAll('button');
-    console.log(buttons);
+    // var wrap = document.querySelector('.wrap');
+    // var buttons = Array.prototype.slice.call(wrap.querySelectorAll('button'));
+
+    // buttons.forEach(function (button) {
+        
+    //     button.addEventListener('click', function (e) {
+    //         var value = e.target.innerText;
+    //         console.log(value);
+    //     });
+
+    // });
 </script>
