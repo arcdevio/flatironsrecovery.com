@@ -375,7 +375,6 @@ details {
 .banner > button:hover {
     cursor: pointer;
 }
-
 @media screen and (max-width: 600px) {
     .phone svg {
         width: 2rem;
@@ -387,7 +386,6 @@ details {
     .phone svg path {
         display: initial;
     }
-
 }
 @media screen and (max-height: 600px) {
     .main {
