@@ -10,9 +10,9 @@
         background-image: url('/about/wooden-fence.jpg');
     }
     .card {
-        /* display: flex; */
         margin: 1rem 0;
         color: white;
+        max-width: 500px;
         min-height: 650px;
         border-radius: 6px;
         position: relative;
@@ -24,22 +24,28 @@
         text-decoration: none;
         flex-direction: column;
     }
-    .card a > div {
+    .card a > div:nth-child(2) {
         margin: 1rem auto;
     }
-    .card img {
+    .card a > div:nth-child(1) {
+        width: 100%;
+        height: 280px;
+        background-position: center;
+    }
+    /* .card img {
+        height: 280px;
         border-radius: 6px;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
-    }
+    } */
     .card > div {
         padding: 1rem 0.5rem;
     }
     .card button {
         border: none;
-        padding: 3px;
+        padding: 6px;
         margin: 0 0.5rem;
-        z-index: 1;
+        border-radius: 3px;
         color: rgb(var(--black));
         background-color: white;
     }
@@ -61,16 +67,17 @@
     <div class="row">
         <div class="col-xs-12 col-sm-4">
             <div class="card">
-                <a href="/blog/sample">
-                    <img src="/about/wooden-fence.jpg" alt="">
+                <a href="/blog/mindfulness-exercises-to-support-early-addiction-recovery">
+                    <div style="background-image: url('/blog/images/mindfulness-thumb.jpg');"></div>
+                    <!-- <img src="/blog/mindfulness-exercises-to-support-early-addiction-recovery/mindfulness.jpg" alt=""> -->
                     <div>
-                        <h3>post title</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, reiciendis minus. Fugit nemo molestias accusamus ducimus ab quia, eligendi repudiandae consectetur cupiditate porro delectus neque ad tempore, nulla quisquam modi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi impedit</p>
+                        <h3>Mindfulness Exercises to Support Early Addiction Recovery</h3>
+                        <p>Mindfulness, or the practice of noticing one’s experience without judgement, has been shown to be highly effective with managing anxiety, panic, depression, anger, and drug/alcohol cravings in early recovery.</p>
                     </div>
                 </a>
                 <div class="row between-xs">
-                    <button>author</button>
-                    <button>category</button>
+                    <button>Rachael Uris, MA</button>
+                    <button>Mental Health</button>
                 </div>
             </div>
         </div>
