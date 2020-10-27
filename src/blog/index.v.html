@@ -23,6 +23,9 @@
         text-decoration: none;
         flex-direction: column;
     }
+    .card:hover {
+        box-shadow: 0px 0px 5px 3px #c7c7c7;
+    }
     .card a > div:nth-child(2) {
         margin: 1rem auto;
     }
@@ -31,12 +34,6 @@
         height: 280px;
         background-position: center;
     }
-    /* .card img {
-        height: 280px;
-        border-radius: 6px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-    } */
     .card > div {
         padding: 1rem 0.5rem;
     }
@@ -48,9 +45,9 @@
         color: rgb(var(--black));
         background-color: white;
     }
-    .card button:hover {
+    /* .card button:hover {
         cursor: pointer;
-    }
+    } */
 </style>
 
 <div class="main">
@@ -66,9 +63,25 @@
     <div class="row">
         <div class="col-xs-12 col-sm-4">
             <div class="card">
+                <a href="/blog/what-is-mindful-eating-and-how-can-it-help-support-addiction-recovery">
+                    <div style="background-image: url('/blog/images/mindfulEating1.jpg');"></div>
+                    
+                    <div>
+                        <h3>What is Mindful Eating and how can it help support  addiction recovery?</h3>
+                        <p>Mindful eating is a way of having a relationship with food. A holistic approach to addiction recovery includes developing this mindful relationship to food.</p>
+                    </div>
+                </a>
+                <div class="row between-xs">
+                    <button>Rachael Uris, MA</button>
+                    <button>Mental Health</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <div class="card">
                 <a href="/blog/mindfulness-exercises-to-support-early-addiction-recovery">
                     <div style="background-image: url('/blog/images/mindfulness-thumb.jpg');"></div>
-                    <!-- <img src="/blog/mindfulness-exercises-to-support-early-addiction-recovery/mindfulness.jpg" alt=""> -->
+                    
                     <div>
                         <h3>Mindfulness Exercises to Support Early Addiction Recovery</h3>
                         <p>Mindfulness, or the practice of noticing one’s experience without judgement, has been shown to be highly effective with managing anxiety, panic, depression, anger, and drug/alcohol cravings in early recovery.</p>
