@@ -19,6 +19,9 @@
     --orange: 211, 139, 93;
     --green: 88, 129, 87;
 
+    --share-color: var(--white);
+    --share-background: var(--blue);
+
     --gradient: 135deg, rgba(var(--yellow), 0.8) 0%, rgba(var(--orange), 0.8) 30%, rgba(var(--blue), 0.8) 100%;
 
     scroll-behavior: smooth;
