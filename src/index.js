@@ -11,6 +11,7 @@
     var share = document.querySelector('.share');
 
     if (!share) return;
+    if (!window.navigator.share) return;
 
     var icon = document.createElement('i');
 
@@ -43,17 +44,14 @@
         background: rgba(var(--share-background));\
     ';
 
+    share.hidden = false;
     share.insertAdjacentElement('afterbegin', icon);
 
     share.addEventListener('click', function () {
-        if (window.navigator.share) {
-            window.navigator.share({
-                title: document.title,
-                url: window.location.href
-            }).catch(console.error);
-        } else {
-
-        }
+        window.navigator.share({
+            title: document.title,
+            url: window.location.href
+        }).catch(console.error);
     });
 
 }());
