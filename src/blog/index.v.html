@@ -45,10 +45,24 @@
         color: rgb(var(--black));
         background-color: white;
     }
-    /* .card button:hover {
+    .nav {
+        margin-bottom: 2rem;
+    }
+    .nav > button {
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 100;
+        border: none;
+    }
+    .nav > button:nth-child(1) {
+        border-right: 1px solid black;
+    }
+    .nav > button:hover {
         cursor: pointer;
-    } */
+    }
 </style>
+
+<script src="/blog/data.js"></script>
 
 <div class="main">
     <div class="gradient">
@@ -60,116 +74,52 @@
 </div>
 
 <div class="wrap">
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card">
-                <a href="/blog/exercise-in-early-addiction-recovery-treatment">
-                    <div style="background-image: url('/blog/images/exercise1-thumb.jpg');"></div>
-        
-                    <div>
-                        <h3>Exercise in Early Addiction Recovery Treatment</h3>
-                        <p>Regular exercise is an essential part of holistic recovery from addiction. Not only does exercise support physical health in countless ways, it also greatly benefits mental and emotional wellbeing.</p>
-                    </div>
-                </a>
-                <div class="row between-xs">
-                    <button>Rachael Uris, MA</button>
-                    <button>Mental Health</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card">
-                <a href="/blog/a-mindfulness-exercise-on-gratitude-for-thanksgiving">
-                    <div style="background-image: url('/blog/images/thanksgiving1-thumb.jpg');"></div>
-        
-                    <div>
-                        <h3>A Mindfulness Exercise on Gratitude for Thanksgiving</h3>
-                        <p>A mindfulness exercise on gratitude. Consider trying this practice by reading it aloud as you sit down to your Thanksgiving dinner.</p>
-                    </div>
-                </a>
-                <div class="row between-xs">
-                    <button>Rachael Uris, MA</button>
-                    <button>Mental Health</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card">
-                <a href="/blog/EMDR-in-early-addiction-recovery-treatment">
-                    <div style="background-image: url('/blog/images/EMDR1-thumb.jpg');"></div>
-        
-                    <div>
-                        <h3>EMDR in Early Addiction Recovery Treatment</h3>
-                        <p>EMDR (Eye Movement Desensitization and Reprocessing) is a type of therapy that can be extremely helpful in healing from addiction, trauma, and other life stresses.</p>
-                    </div>
-                </a>
-                <div class="row between-xs">
-                    <button>Rachael Uris, MA</button>
-                    <button>Mental Health</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card">
-                <a href="/blog/self-care-plan-for-early-addiction-recovery">
-                    <div style="background-image: url('/blog/images/selfcare-thumb.jpg');"></div>
-        
-                    <div>
-                        <h3>Self Care Plan for Early Addiction Recovery</h3>
-                        <p>Setting the intention to practice self-love and self-care instead of self-neglect or self-harm is a powerful way to build a foundation from which we can heal and thrive.</p>
-                    </div>
-                </a>
-                <div class="row between-xs">
-                    <button>Rachael Uris, MA</button>
-                    <button>Mental Health</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card">
-                <a href="/blog/what-is-mindful-eating-and-how-can-it-help-support-addiction-recovery">
-                    <div style="background-image: url('/blog/images/mindfulEating1.jpg');"></div>
-                    
-                    <div>
-                        <h3>What is Mindful Eating and how can it help support  addiction recovery?</h3>
-                        <p>Mindful eating is a way of having a relationship with food. A holistic approach to addiction recovery includes developing this mindful relationship to food.</p>
-                    </div>
-                </a>
-                <div class="row between-xs">
-                    <button>Rachael Uris, MA</button>
-                    <button>Mental Health</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card">
-                <a href="/blog/mindfulness-exercises-to-support-early-addiction-recovery">
-                    <div style="background-image: url('/blog/images/mindfulness-thumb.jpg');"></div>
-                    
-                    <div>
-                        <h3>Mindfulness Exercises to Support Early Addiction Recovery</h3>
-                        <p>Mindfulness, or the practice of noticing one’s experience without judgement, has been shown to be highly effective with managing anxiety, panic, depression, anger, and drug/alcohol cravings in early recovery.</p>
-                    </div>
-                </a>
-                <div class="row between-xs">
-                    <button>Rachael Uris, MA</button>
-                    <button>Mental Health</button>
-                </div>
-            </div>
-        </div>
+    <div class="row center-xs nav">
+        <button>All</button>
+        <button>Treatment</button>
+        <button>Mental Health</button>
+        <button>Relationships</button>
+        <button>Community</button>
+        <button>Addictions</button>
     </div>
+    <div class="row articles"></div>
 </div>
 
 <script>
-    // var wrap = document.querySelector('.wrap');
-    // var buttons = Array.prototype.slice.call(wrap.querySelectorAll('button'));
+    var articlesContainer = document.querySelector('.articles');
+    var buttons = Array.prototype.slice.call(document.querySelectorAll('button'));
+    
+    for (var button of buttons) {
+        button.addEventListener('click', function (e) {
+            const value = e.target.innerText;
 
-    // buttons.forEach(function (button) {
+
+        });
+    }
+    
+    for (var article of articles) {
+        var column = document.createElement('div');
+        var card = document.createElement('div');
+        var anchor = document.createElement('a');
+        var image = document.createElement('div');
+        var body = document.createElement('div');
+        var title = document.createElement('h3');
+        var description = document.createElement('p');
+
+        card.setAttribute('class', 'card');
+        column.setAttribute('class', 'col-xs-12 col-sm-6 col-md-4');
+        anchor.setAttribute('href', article.path);
+        image.style.backgroundImage = 'url(' + article.image + ')';
+
+        title.innerText = article.title;
+        description.innerText = article.description;
         
-    //     button.addEventListener('click', function (e) {
-    //         var value = e.target.innerText;
-    //         console.log(value);
-    //     });
-
-    // });
+        articlesContainer.appendChild(column);
+        column.appendChild(card);
+        card.appendChild(anchor);
+        anchor.appendChild(image);
+        anchor.appendChild(body);
+        body.appendChild(title);
+        body.appendChild(description);
+    }
 </script>
