@@ -78,8 +78,6 @@
 
     if (!form) return;
 
-    const url = 'https://2vaid6dwk1.execute-api.us-west-2.amazonaws.com/submit';
-
     form.addEventListener('submit', e => {
         e.preventDefault();
 
@@ -87,22 +85,20 @@
 
         body.$name = body.$name || 'Contact';
         body.$domain = 'flatironsrecovery.com';
-        // body.$to = 'flatironsrecoverycenter@gmail.com';
-        body.$to = 'alex@arcdev.io';
+        body.$to = 'moberg@flatironsrecovery.com';
 
-        window.fetch(url, {
+        const url = 'https://2vaid6dwk1.execute-api.us-west-2.amazonaws.com/submit';
+        const options = {
             mode: 'cors',
             method: 'POST',
             body: JSON.stringify(body)
-        })
+        };
+
+        window.fetch(url, options)
         .then(response => response.json())
-        .then(data => {
-            form.reset();
-            console.log(data);
-        })
-        .catch(error => {
-            console.log(error);    
-        });
+        .then(data => console.log(data))
+        .then(() => form.reset())
+        .catch(error => console.log(error));
 
     });
 
