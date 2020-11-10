@@ -88,38 +88,46 @@
 <script>
     var articlesContainer = document.querySelector('.articles');
     var buttons = Array.prototype.slice.call(document.querySelectorAll('button'));
-    
+
     for (var button of buttons) {
         button.addEventListener('click', function (e) {
             const value = e.target.innerText;
-
-
+            const list = Array.prototype.slice.call(articlesContainer.children);
+            
+            for (var article of list) {
+                article.hidden = article.id.includes(value) || value === 'All' ? false : true;
+            }
         });
     }
     
-    for (var article of articles) {
-        var column = document.createElement('div');
-        var card = document.createElement('div');
-        var anchor = document.createElement('a');
-        var image = document.createElement('div');
-        var body = document.createElement('div');
-        var title = document.createElement('h3');
-        var description = document.createElement('p');
+    var filter = function () {
+        for (var article of articles) {
+            var column = document.createElement('div');
+            var card = document.createElement('div');
+            var anchor = document.createElement('a');
+            var image = document.createElement('div');
+            var body = document.createElement('div');
+            var title = document.createElement('h3');
+            var description = document.createElement('p');
+            
+            card.setAttribute('class', 'card');
+            column.setAttribute('class', 'col-xs-12 col-sm-6 col-md-4');
+            column.setAttribute('id', article.categories.join(' '));
+            anchor.setAttribute('href', article.path);
+            image.style.backgroundImage = 'url(' + article.image + ')';
 
-        card.setAttribute('class', 'card');
-        column.setAttribute('class', 'col-xs-12 col-sm-6 col-md-4');
-        anchor.setAttribute('href', article.path);
-        image.style.backgroundImage = 'url(' + article.image + ')';
+            title.innerText = article.title;
+            description.innerText = article.description;
 
-        title.innerText = article.title;
-        description.innerText = article.description;
-        
-        articlesContainer.appendChild(column);
-        column.appendChild(card);
-        card.appendChild(anchor);
-        anchor.appendChild(image);
-        anchor.appendChild(body);
-        body.appendChild(title);
-        body.appendChild(description);
+            articlesContainer.appendChild(column);
+            column.appendChild(card);
+            card.appendChild(anchor);
+            anchor.appendChild(image);
+            anchor.appendChild(body);
+            body.appendChild(title);
+            body.appendChild(description);
+        }
     }
+
+    filter();
 </script>

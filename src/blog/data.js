@@ -26,7 +26,7 @@ var articles = [
     {
         title: 'Self Care Plan for Early Addiction Recovery',
         author: 'Rachael Uris, MA',
-        categories: ['Mental Health'],
+        categories: ['Mental Health', 'Community'],
         image: '/blog/images/selfcare-thumb.jpg',
         path: '/blog/self-care-plan-for-early-addiction-recovery',
         description: 'Setting the intention to practice self-love and self-care instead of self-neglect or self-harm is a powerful way to build a foundation from which we can heal and thrive.',
