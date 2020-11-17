@@ -158,7 +158,31 @@ details {
     border-radius: 3px;
     border: 1px solid rgb(var(--muted));
 }
+.action {
+	z-index: 1;
+    right: 2vw;
+    bottom: 70px;
+    cursor: pointer;
+    position: fixed;
+	max-width: 63px;
+	max-height: 63px;
+    overflow: hidden;
+    border-radius: 3rem;
+    background-color: rgb(var(--blue));
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+.action a {
+    padding: 1rem;
+    display: block;
+}
+.action object {
+    width: 1.9rem;
+    height: 1.9rem;
+}
 
+.action:hover {
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+}
 .row {
     margin: 0;
     margin-right: 0;

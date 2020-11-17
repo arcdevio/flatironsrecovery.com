@@ -48,9 +48,15 @@
     <script src="/index.js" defer></script>
 </head>
 <body>
+    <div class="action">
+        <a href="tel:303-578-4536" data-track="click: phone, click">
+            <object data="/assets/phone.svg" type="image/svg+xml">Phone Icon</object>
+        </a>
+    </div>
+
     <div class="banner">
-        <p>How Flatirons is handling COVID-19 <a href="/covid-19">Learn More</a>.</p>
         <button class="blue close">X</button>
+        <p>How Flatirons is handling COVID-19 <a href="/covid-19">Learn More</a>.</p>
     </div>
 
     <header>
@@ -161,6 +167,7 @@
         padding: 0.6rem;
         font-size: 1rem;
         font-weight: 100;
+        text-transform: capitalize;
     }
     .nav > button:nth-child(1) {
         border-right: 1px solid black;
@@ -188,11 +195,11 @@
 <div class="wrap">
     <div class="row center-xs nav">
         <button class="active">All</button>
-        <button>Treatment</button>
-        <button>Mental Health</button>
-        <button>Relationships</button>
-        <button>Community</button>
-        <button>Addictions</button>
+        <button>treatment</button>
+        <button>mental health</button>
+        <button>relationships</button>
+        <button>community</button>
+        <button>addictions</button>
     </div>
     <div class="row articles"></div>
 </div>
@@ -203,7 +210,7 @@
 
     for (var button of buttons) {
         button.addEventListener('click', function (e) {
-            var value = e.target.innerText;
+            var value = e.target.innerHTML;
             var current = document.querySelector('.active');
             var list = Array.prototype.slice.call(articlesContainer.children);
             
