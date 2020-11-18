@@ -30,7 +30,7 @@
 
     share.style = '\
         right: 1vw;\
-        bottom: 1vh;\
+        bottom: 94px;\
         border: none;\
         cursor: pointer;\
         position: fixed;\
