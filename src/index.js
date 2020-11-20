@@ -9,7 +9,7 @@
 
 // share
 (function(){'use strict';
-    // if (!window.navigator.share) return;
+    if (!window.navigator.share) return;
 
     var share = document.querySelector('.share');
     if (!share) return;
