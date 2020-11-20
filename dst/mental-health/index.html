@@ -49,12 +49,13 @@
 </head>
 <body>
 
-    <div class="banner">
-        <button class="blue close">X</button>
-        <p>How Flatirons is handling COVID-19 <a href="/covid-19">Learn More</a>.</p>
-    </div>
-
     <header>
+
+        <div class="banner" hidden>
+            <button class="blue close">X</button>
+            <span>How Flatirons is handling COVID-19 <a href="/covid-19">Learn More</a>.</span>
+        </div>
+
         <div class="row middle-xs">
             <div class="col-xs-6 start-xs">
                 <a href="/">
@@ -240,12 +241,9 @@
         </div>
     </footer>
     
-    <div class="action">
-        <a href="tel:303-578-4536" data-track="click: phone, click">
-            <object data="/assets/phone.svg" type="image/svg+xml">Phone Icon</object>
-        </a>
-    </div>
     <button class="share" hidden>Share</button>
+
+    <a class="call" href="tel:303-578-4536" data-track="click: phone, click">Call</a>
 
     <script src="//cdn.callrail.com/companies/637562366/f6d029256f703e62f7b0/12/swap.js"></script> 
 

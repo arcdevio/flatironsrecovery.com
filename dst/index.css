@@ -21,6 +21,8 @@
 
     --share-color: var(--white);
     --share-background: var(--blue);
+    --call-color: var(--white);
+    --call-background: var(--blue);
 
     --gradient: 135deg, rgba(var(--yellow), 0.8) 0%, rgba(var(--orange), 0.8) 30%, rgba(var(--blue), 0.8) 100%;
 
@@ -383,24 +385,23 @@ details {
     background-repeat: no-repeat;
 }
 .banner {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     color: white;
-    display: none;
-    flex-direction: row;
-    justify-content: space-between;
     background-color: rgb(var(--blue));
 }
 .banner > button {
     border: none;
-    background: none;
+    cursor: pointer;
     font-size: 1rem;
+    background: none;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.banner > button:hover {
-    cursor: pointer;
+.banner > span {
+    width: 95%;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    display: inline-block;
 }
 @media screen and (max-width: 600px) {
     .phone svg {
