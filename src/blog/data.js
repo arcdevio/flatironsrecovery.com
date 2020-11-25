@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'Addiction Recovery During the Holidays: How to Cope, Grieve, and Heal',
+        author: 'Rachael Uris, MA',
+        categories: ['addictions', 'mental health', 'treatment', 'community', 'relationships'],
+        image: '/blog/images/holidays-thumb.jpg',
+        path: '/blog/addiction-recovery-during-the-holidays',
+        description: 'For many, especially for those recovering from addiction, the holidays bring a blizzard of emotional turmoil that is hard to understand.',
+    },
+    {
         title: 'Exercise in Early Addiction Recovery Treatment',
         author: 'Rachael Uris, MA',
         categories: ['mental health'],
