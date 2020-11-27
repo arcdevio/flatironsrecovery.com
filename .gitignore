@@ -1,3 +1,6 @@
+src/test
+dst/test
+
 # Logs
 logs
 *.log
