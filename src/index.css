@@ -403,6 +403,11 @@ details {
     padding: 0.5rem 1rem;
     display: inline-block;
 }
+.tile {
+    margin: 0.5rem auto;
+    padding: 1rem;
+    min-height: 400px;
+}
 @media screen and (max-width: 600px) {
     .phone svg {
         width: 2rem;
