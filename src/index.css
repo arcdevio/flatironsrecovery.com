@@ -187,12 +187,11 @@ details {
 }
 .row {
     margin: 0;
-    margin-right: 0;
     margin-left: 0;
+    margin-right: 0;
 }
 .nav-bar {
 	color: rgb(var(--black));
-    /* border-top: 1px solid rgb(var(--black)); */
     border-bottom: 1px solid rgba(var(--black), 0.1);
 }
 .nav-bar a {
