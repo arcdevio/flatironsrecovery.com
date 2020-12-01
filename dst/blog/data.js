@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'Aimless Wandering: a Mindfulness Practice for Early Addiction Recovery',
+        author: 'Rachael Uris, MA',
+        categories: ['addictions', 'mental health', 'treatment', 'community', 'relationships'],
+        image: '/blog/images/aimless-wandering-thumb.jpg',
+        path: '/blog/aimless-wandering',
+        description: 'Mindfulness has been scientifically proven to decrease substance use cravings, depression, anxiety, stress, and panic.',
+    },
+    {
         title: 'Addiction Recovery During the Holidays: How to Cope, Grieve, and Heal',
         author: 'Rachael Uris, MA',
         categories: ['addictions', 'mental health', 'treatment', 'community', 'relationships'],
