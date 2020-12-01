@@ -187,12 +187,11 @@ details {
 }
 .row {
     margin: 0;
-    margin-right: 0;
     margin-left: 0;
+    margin-right: 0;
 }
 .nav-bar {
 	color: rgb(var(--black));
-    /* border-top: 1px solid rgb(var(--black)); */
     border-bottom: 1px solid rgba(var(--black), 0.1);
 }
 .nav-bar a {
@@ -397,11 +396,15 @@ details {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.banner > span {
-    width: 95%;
+.banner > a {
+    padding: 1rem;
     text-align: center;
-    padding: 0.5rem 1rem;
     display: inline-block;
+}
+.tile {
+    margin: 0.5rem auto;
+    padding: 1rem;
+    min-height: 400px;
 }
 @media screen and (max-width: 600px) {
     .phone svg {
