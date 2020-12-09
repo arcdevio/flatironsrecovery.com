@@ -5,10 +5,27 @@
     "ogImage": "/about/wooden-fence.jpg"
 } -->
 
+<script src="/assets/gallery.min.js"></script>
 <style>
     .main {
         background-image: url('/about/wooden-fence.jpg');
     }
+    .gallery > .item {
+        overflow: hidden;
+        max-height: 260px;
+        margin: 0.5rem auto;
+    }
+    .gallery > div img {
+        width: 100%;
+    }
+	.e-gallery {
+		margin: auto;
+		display: flex;
+		flex: 0 1 auto;
+		flex-wrap: wrap;
+		max-width: 1400px;
+		flex-direction: row;
+	}
 </style>
 
 <div class="main">
@@ -21,7 +38,21 @@
 </div>
 
 <div class="wrap">
-    <div class="row">
-        
+    <div class="gallery row">
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/facility/images/IMG_0299_v1.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/facility/images/IMG_0300_v1.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/facility/images/IMG_0301_v1.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/facility/images/IMG_0302_v1.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/facility/images/IMG_0303_v1.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/facility/images/IMG_0304_v1.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/facility/images/IMG_0305_v1.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/facility/images/IMG_0309_v1.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/facility/images/IMG_0314_v1.JPG" alt=""></div>
     </div>
 </div>
+
+<script>
+    var gallery = document.querySelector('.gallery');
+    
+    erbium.gallery.create({ target: gallery });
+</script>
