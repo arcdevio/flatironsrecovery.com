@@ -346,6 +346,10 @@ details {
     color: rgb(var(--white));
     background-color: rgb(var(--black));
 }
+.white {
+    color: rgb(var(--black));
+    background-color: rgb(var(--white));
+}
 
 /*accordion*/
 .accordion {
