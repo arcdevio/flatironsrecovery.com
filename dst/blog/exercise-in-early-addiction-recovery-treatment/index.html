@@ -80,7 +80,14 @@
         		<nav class="nav-bar" hidden>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
+                        <li>
+                            <a>About</a>
+                            <ul>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/team">Team</a></li>
+                                <li><a href="/facility">Facility</a></li>
+                            </ul>
+                        </li>
                         <li>
                             <!-- <a href="/treatment">Treatment</a></li> -->
                             <a>Treatment</a>
@@ -111,8 +118,6 @@
                                 <li><a href="/faq">FAQ</a></li>
                                 <li><a href="/mindfulness">Mindfulness</a></li>
                                 <li><a href="/admission">Admission</a></li>
-                                <li><a href="/team">Team</a></li>
-                                <li><a href="/facility">Facility</a></li>
                                 <li><a href="/contact">Contact</a></li>
                             </ul>
                         </li>
@@ -194,6 +199,70 @@
 
 </div>
     </main>
+
+    <div class="green">
+        
+<div class="wrap">
+    <div class="row center-xs">
+        <h2>Subscribe Now</h2>
+    </div>
+    <div class="row center-xs">
+        <div class="col-xs">
+            <h4>Subscribe to our newsletter for Flatirons Recovery updates and addiction treatment resources.</h4>
+            <button id="subscribe-button" class="button white">Subscribe</button>
+        </div>
+    </div>
+</div>
+
+<!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "bfe7c1f53f8461fdb9aaf1a05ca145a4"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+<!-- End Constant Contact Active Forms -->
+
+<style>
+    #subscribe-container {
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -100;
+        display: flex;
+        cursor: pointer;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.1);
+    }
+    #subscribe-form {
+        max-width: 900px;
+    }
+</style>
+
+<div id="subscribe-container">
+    <!-- Begin Constant Contact -->
+    <div id="subscribe-form" class="ctct-inline-form" data-form-id="d7e7838e-b238-4efe-b2ab-73bf53c144f2"></div>
+    <!-- End Constant Contact -->
+</div>
+
+<script>
+    var sb = document.getElementById('subscribe-button');
+    var sc = document.getElementById('subscribe-container');
+    
+    sc.addEventListener('click', function (e) {
+        if (e.target !== sc) return;
+        sc.style.opacity = '0';
+        sc.style.zIndex = '-100';
+        console.log('close');
+    });
+
+    sb.addEventListener('click', function () {
+        sc.style.zIndex = '1';
+        sc.style.opacity = '1';
+    });
+
+</script>
+    </div>
 
     <footer>
     	<div class="row middle-xs center-xs">
