@@ -214,6 +214,7 @@ details {
 .main {
     height: 50vh;
     display: flex;
+    min-height: 300px;
     justify-content: center;
     color: rgb(var(--black));
     background-position: center;
@@ -245,6 +246,7 @@ details {
 .cover {
     height: 100vh;
     overflow: hidden;
+    min-height: 400px;
     background-size: cover;
     color: rgb(var(--black));
     background-repeat: no-repeat;
@@ -470,6 +472,13 @@ details {
 .profile-description.active {
     z-index: 100;
     transform: translateY(0%);
+}
+.legit {
+    margin: auto;
+    padding-top: 3rem;
+}
+.legit img {
+   width: auto; 
 }
 @media screen and (max-width: 600px) {
     .phone svg {
