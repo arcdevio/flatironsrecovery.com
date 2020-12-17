@@ -212,9 +212,9 @@ details {
     max-width: 1440px;
 }
 .main {
-    height: 50vh;
+    height: 60vh;
     display: flex;
-    min-height: 300px;
+    min-height: 400px;
     justify-content: center;
     color: rgb(var(--black));
     background-position: center;
@@ -480,6 +480,11 @@ details {
 .legit img {
    width: auto; 
 }
+@media screen and (max-width: 1000px) {
+    .main h1 {
+        font-size: 2.3rem;
+    }
+}
 @media screen and (max-width: 600px) {
     .phone svg {
         width: 2rem;
@@ -500,6 +505,7 @@ details {
     .main {
         height: 70vh;
     }
+    
 }
 @media screen and (max-height: 600px) {
     .main {
