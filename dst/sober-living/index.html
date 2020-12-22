@@ -130,10 +130,27 @@
 
     <main>
         
+<script src="/assets/gallery.min.js"></script>
 <style>
     .main {
-        background-image: url('/sober-living/rockies.jpg');
+        background-image: url('/facility/IMG_0309.jpg');
     }
+    .gallery > .item {
+        overflow: hidden;
+        max-height: 260px;
+        margin: 0.5rem auto;
+    }
+    .gallery > div img {
+        width: 100%;
+    }
+	.e-gallery {
+		margin: auto;
+		display: flex;
+		flex: 0 1 auto;
+		flex-wrap: wrap;
+		max-width: 1400px;
+		flex-direction: row;
+	}
 </style>
 <div class="main">
     <div class="gradient">
@@ -175,6 +192,31 @@
         </div>
     </div>
 </div>
+
+<div class="wrap">
+    <div class="row">
+        <div class="col-xs">
+            <h2>Housing Tour</h2>
+        </div>
+    </div>
+    <div class="gallery row">
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/sober-living/images/sober_living_0605.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/sober-living/images/sober_living_0607.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/sober-living/images/sober_living_0608.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/sober-living/images/sober_living_0621.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/sober-living/images/sober_living_0622.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/sober-living/images/sober_living_0626.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/sober-living/images/sober_living_0631.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/sober-living/images/sober_living_0633.JPG" alt=""></div>
+        <div class="item col-xs-12 col-sm-6 col-md-4"><img src="/sober-living/images/sober_living_0634.JPG" alt=""></div>
+    </div>
+</div>
+
+<script>
+    var gallery = document.querySelector('.gallery');
+    
+    erbium.gallery.create({ target: gallery });
+</script>
 
     </main>
 
