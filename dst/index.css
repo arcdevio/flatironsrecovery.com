@@ -96,7 +96,7 @@ p, li {
 ul, ol {
     margin-left: 1.6rem;
 }
-em, a, li {
+em, a, strong {
     font-size: inherit;
 }
 label {
