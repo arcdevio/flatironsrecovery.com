@@ -2,7 +2,7 @@ var articles = [
     {
         title: 'Mental Illness and Meditation',
         author: 'Sarah Levin, LPC',
-        categories: ['addictions', 'mental health', 'treatment', 'community', 'relationships'],
+        categories: ['addictions', 'mental health', 'treatment'],
         image: '/blog/images/mentalillnessandmeditation-thumb.jpg',
         path: '/blog/mental-illness-and-meditation',
         description: 'The skeptical scientist in me looked for tangible things to grasp, and I couldn’t see how mindfulness had anything to do with science...',
