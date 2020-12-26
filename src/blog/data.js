@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'Five New Years Resolutions for Early Recovery',
+        author: 'Sarah Levin, LPC',
+        categories: ['addictions', 'mental health', 'treatment', 'community', 'relationships'],
+        image: '/blog/images/fivenewyearsresolutions-thumb.jpg',
+        path: '/blog/five-new-years-resolutions-for-early-recovery',
+        description: 'Yes, we want to grow. Of course we do! Why else would we be on the recovery path if not to better ourselves and our lives?',
+    },
+    {
         title: 'Mental Illness and Meditation',
         author: 'Sarah Levin, LPC',
         categories: ['addictions', 'mental health', 'treatment'],
