@@ -129,7 +129,7 @@
         };
 
         window.fetch(url, options)
-            .then(function (response) { response.json(); })
+            .then(function (response) { return response.json(); })
             .then(function (data) { console.log(data); })
             .then(function () { form.reset(); })
             .catch(function (error) { console.log(error); });
