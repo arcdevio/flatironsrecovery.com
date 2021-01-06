@@ -112,7 +112,7 @@
 
     if (!form) return;
 
-    form.addEventListener('submit', e => {
+    form.addEventListener('submit', function (e) {
         e.preventDefault();
 
         var body = Object.fromEntries(new FormData(form));
@@ -129,10 +129,10 @@
         };
 
         window.fetch(url, options)
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .then(() => form.reset())
-        .catch(error => console.log(error));
+            .then(function (response) { return response.json(); })
+            .then(function (data) { console.log(data); })
+            .then(function () { form.reset(); })
+            .catch(function (error) { console.log(error); });
 
     });
 

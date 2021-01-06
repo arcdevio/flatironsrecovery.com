@@ -1,7 +1,15 @@
 var articles = [
     {
-        title: 'Five New Years Resolutions for Early Recovery',
+        title: 'What are the Effects of Alcohol Addiction?',
         author: 'Sarah Levin, LPC',
+        categories: ['addictions', 'mental health', 'treatment'],
+        image: '/blog/images/alcohol-addiction-thumb.jpg',
+        path: '/blog/what-are-the-effects-of-alcohol-addiction',
+        description: 'Alcohol affects the brain on a number of levels, learn about the effects of alcoholism and the signs of alcohol addiction.',
+    },
+    {
+        title: 'Five New Years Resolutions for Early Recovery',
+        author: 'Rachael Uris, MA',
         categories: ['addictions', 'mental health', 'treatment', 'community', 'relationships'],
         image: '/blog/images/fivenewyearsresolutions-thumb.jpg',
         path: '/blog/five-new-years-resolutions-for-early-recovery',
