@@ -68,7 +68,7 @@ var articles = [
         author: 'Rachael Uris, MA',
         categories: ['addictions', 'treatment', 'mental health'],
         image: '/blog/images/EMDR1-thumb.jpg',
-        path: '/blog/EMDR-in-early-addiction-recovery-treatment',
+        path: '/blog/emdr-in-early-addiction-recovery-treatment',
         description: 'EMDR (Eye Movement Desensitization and Reprocessing) is a type of therapy that can be extremely helpful in healing from addiction, trauma, and other life stresses.',
     },
     {
