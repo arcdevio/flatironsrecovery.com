@@ -2,11 +2,11 @@
 	"profile": "arc",
 	"domain": "flatironsrecovery.com",
 	"folder": "dst",
-	"redirects": {
-		"/iop": "/",
-		"/test/redirect": "/",
-		"/blog/EMDR-in-early-addiction-recovery-treatment": "/blog/emdr-in-early-addiction-recovery-treatment"
-	},
+	"redirects": [
+		["/iop", "/"],
+		["/test/redirect", "/"],
+		["/blog/EMDR-in-early-addiction-recovery-treatment", "/blog/emdr-in-early-addiction-recovery-treatment"]
+	],
 	"to": [
 		"moberg@flatironsrecovery.com",
 		"alex.steven.elias@gmail.com"
