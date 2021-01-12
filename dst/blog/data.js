@@ -1,7 +1,23 @@
 var articles = [
     {
-        title: 'Five New Years Resolutions for Early Recovery',
+        title: 'COVID-19, Loneliness, and Addiction',
+        author: 'Rachael Uris, MA',
+        categories: ['addictions', 'mental health', 'treatment', 'community', 'relationships'],
+        image: '/blog/images/man-mask-thumb.jpg',
+        path: '/blog/COVID-19-loneliness-and-addiction',
+        description: 'Over the course of the COVID-19 pandemic, our country has witnessed a devastating spike in substance abuse, addiction, and drug and alcohol related deaths.',
+    },
+    {
+        title: 'What are the Effects of Alcohol Addiction?',
         author: 'Sarah Levin, LPC',
+        categories: ['addictions', 'mental health', 'treatment'],
+        image: '/blog/images/alcohol-addiction-thumb.jpg',
+        path: '/blog/what-are-the-effects-of-alcohol-addiction',
+        description: 'Alcohol affects the brain on a number of levels, learn about the effects of alcoholism and the signs of alcohol addiction.',
+    },
+    {
+        title: 'Five New Years Resolutions for Early Recovery',
+        author: 'Rachael Uris, MA',
         categories: ['addictions', 'mental health', 'treatment', 'community', 'relationships'],
         image: '/blog/images/fivenewyearsresolutions-thumb.jpg',
         path: '/blog/five-new-years-resolutions-for-early-recovery',
@@ -52,7 +68,7 @@ var articles = [
         author: 'Rachael Uris, MA',
         categories: ['addictions', 'treatment', 'mental health'],
         image: '/blog/images/EMDR1-thumb.jpg',
-        path: '/blog/EMDR-in-early-addiction-recovery-treatment',
+        path: '/blog/emdr-in-early-addiction-recovery-treatment',
         description: 'EMDR (Eye Movement Desensitization and Reprocessing) is a type of therapy that can be extremely helpful in healing from addiction, trauma, and other life stresses.',
     },
     {
