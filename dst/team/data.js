@@ -31,12 +31,12 @@ window.Global.staff = [
         title: "Director of Business Development",
         descriptions: ['Rachael has been in the mental health field in Colorado for over ten years.', 'With a Master’s Degree in Contemplative Counseling Psychology from Naropa University, Rachael has worked as a bilingual psychotherapist in various settings in Boulder, including community mental health, public schools, women’s healthcare, and private practice.', 'From her clinical background, Rachael strives to bring mindfulness, trauma - informed competence, and a holistic view of healing into her work.', 'When she’s not working, Rachael loves running, dancing, hiking, gardening, and playing outside with her two children.']
     },
-    {
-        image: "./team/images/valerie-purdie.jpg",
-        name: "Valerie Purdie",
-        title: "Director of Admissions",
-        descriptions: ['Valerie is the Director of Admissions for Flatirons Recovery.', 'As someone with personal experience of the impact of addiction on individuals and their families, it is a passion of Valerie’s to be able to provide the resources and encouragement that will allow true change and growth in a life, free from addiction.', 'Valerie has a long career record of serving those struggling with mental health, as well as addiction issues, in a variety of positions and settings, including hospitals, residential treatment, and other community- based treatment models.', '“I believe I can be a guide, ” says Valerie, “to those trying to navigate the resources available for mental health and chemical dependency services.I am excited to be a part of the phenomenal team of providers here at Flatirons Recovery and look forward to being a part of the recovery experience for as many of those in need as possible.”']
-    },
+    // {
+    //     image: "./team/images/valerie-purdie.jpg",
+    //     name: "Valerie Purdie",
+    //     title: "Director of Admissions",
+    //     descriptions: ['Valerie is the Director of Admissions for Flatirons Recovery.', 'As someone with personal experience of the impact of addiction on individuals and their families, it is a passion of Valerie’s to be able to provide the resources and encouragement that will allow true change and growth in a life, free from addiction.', 'Valerie has a long career record of serving those struggling with mental health, as well as addiction issues, in a variety of positions and settings, including hospitals, residential treatment, and other community- based treatment models.', '“I believe I can be a guide, ” says Valerie, “to those trying to navigate the resources available for mental health and chemical dependency services.I am excited to be a part of the phenomenal team of providers here at Flatirons Recovery and look forward to being a part of the recovery experience for as many of those in need as possible.”']
+    // },
     {
         image: "./team/images/jaroed-sarmeinto.jpg",
         name: "Jaroed Sarmiento",
@@ -55,7 +55,7 @@ window.Global.staff = [
         title: "Nutritional Therapist",
         descriptions: ['Kelly Miller is Flatirons Recovery’s Nutritional Therapist, and is also a certified Recovery Coach and owner of The Addiction Nutritionist; a recovery focused nutrition practice.', 'Kelly helps individuals in recovery uncover the biochemical root causes of their addictions and cravings and use that information to create targeted nutrition plans designed to improve mood, reduce cravings and prevent relapse.She has 3 + years experience working with both individuals in recovery and treatments centers around the Denver Metro area.', 'After years of struggling with her own addictions and complicated health issues.', 'Kelly discovered the powerful connection between nutrition, mood and mental health.She has now made it her life\'s work to educate and counsel others on the life changing implications of a healthy and holistic lifestyle.']
     },
-    
+
     {
         image: "./team/images/Lindsey-McCune.jpg",
         name: "Lindsey McCune",
