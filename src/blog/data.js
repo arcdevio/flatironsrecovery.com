@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'We Aren’t Here to Fix you Because You’re not Broken',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'addictions', 'treatment'],
+        image: '/blog/images/wearentheartofixyou-thumb.jpg',
+        path: '/blog/we-arent-here-to-fix-you-because-youre-not-broken',
+        description: 'Our Foundation of Basic Goodness. Basic Goodness is the concept that we are—innately and forever—good at our core.',
+    },
+    {
         title: 'COVID-19, Loneliness, and Addiction',
         author: 'Rachael Uris, MA',
         categories: ['addictions', 'mental health', 'treatment', 'community', 'relationships'],
