@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "muleify -pw src dev -s dev",
-    "build": "rm -r dst/* && muleify -p src dst"
+    "build": "rm -r dst/* && muleify -p src dst && muleify -p landing-page/ dst"
   },
   "repository": {
     "type": "git",
