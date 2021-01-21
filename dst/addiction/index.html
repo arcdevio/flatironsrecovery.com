@@ -43,18 +43,17 @@
     <meta name="msapplication-TileColor" content="#2e86ab">
     <meta name="theme-color" content="#2e86ab">
 
-    <link rel="manifest" href="/manifest.json">
-
     <script>window.AID='UA-178025796-1';</script>
-	<script src="/assets/analytic.min.js"></script>
+	<script src="/assets/analytic.min.js" async></script>
 
     <script src="/assets/nav-bar.min.js" defer></script>
 
-    <link rel="stylesheet" href="/assets/flexboxgrid.min.css">
-    <link rel="stylesheet" href="/index.css">
-
+    <link rel="stylesheet" rel="preload" href="/assets/flexboxgrid.min.css">
+    <link rel="stylesheet" rel="preload" href="/index.css">
 
     <script src="/index.js" defer></script>
+
+    <link rel="manifest" href="/manifest.json">
 </head>
 <body>
 
@@ -473,10 +472,8 @@
     </div>
 </div>
 
-<!-- Begin Constant Contact Active Forms -->
-<script> var _ctct_m = "bfe7c1f53f8461fdb9aaf1a05ca145a4"; </script>
-<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-<!-- End Constant Contact Active Forms -->
+<script>var _ctct_m = "bfe7c1f53f8461fdb9aaf1a05ca145a4";</script>
+<script id="signupScript" defer></script>
 
 <style>
     #subscribe-container {
@@ -485,7 +482,7 @@
         opacity: 0;
         width: 100%;
         height: 100%;
-        z-index: -100;
+        z-index: -1;
         display: flex;
         cursor: pointer;
         position: fixed;
@@ -493,31 +490,46 @@
         justify-content: center;
         background: rgba(0, 0, 0, 0.1);
     }
+    #subscribe-loader {
+        z-index: 2;
+        width: 2rem;
+        height: 2rem;
+        position: fixed;
+        border-radius: 50%;
+        border: 0.5rem solid white;
+        border-top: 0.5rem solid grey;
+        animation: spin 2s linear infinite;
+    }
     #subscribe-form {
+        z-index: 3;
         max-width: 900px;
+    }
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
     }
 </style>
 
 <div id="subscribe-container">
-    <!-- Begin Constant Contact -->
+    <div id="subscribe-loader"></div>
     <div id="subscribe-form" class="ctct-inline-form" data-form-id="d7e7838e-b238-4efe-b2ab-73bf53c144f2"></div>
-    <!-- End Constant Contact -->
 </div>
 
 <script>
     var sb = document.getElementById('subscribe-button');
     var sc = document.getElementById('subscribe-container');
-    
+    var ss = document.getElementById('signupScript');
+
     sc.addEventListener('click', function (e) {
         if (e.target !== sc) return;
+        sc.style.zIndex = '-1';
         sc.style.opacity = '0';
-        sc.style.zIndex = '-100';
-        console.log('close');
     });
 
     sb.addEventListener('click', function () {
         sc.style.zIndex = '1';
         sc.style.opacity = '1';
+        ss.src = '//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js';
     });
 
 </script>
@@ -567,7 +579,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-4 first-xs">
                 <div class="legit">
-                    <script src="https://static.legitscript.com/seals/7418467.js"></script>
+                    <!-- <script src="https://static.legitscript.com/seals/7418467.js"></script> -->
                 </div>
 			</div>
 			<div class="col-xs-4">

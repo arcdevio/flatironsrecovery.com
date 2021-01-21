@@ -43,18 +43,17 @@
     <meta name="msapplication-TileColor" content="#2e86ab">
     <meta name="theme-color" content="#2e86ab">
 
-    <link rel="manifest" href="/manifest.json">
-
     <script>window.AID='UA-178025796-1';</script>
-	<script src="/assets/analytic.min.js"></script>
+	<script src="/assets/analytic.min.js" async></script>
 
     <script src="/assets/nav-bar.min.js" defer></script>
 
-    <link rel="stylesheet" href="/assets/flexboxgrid.min.css">
-    <link rel="stylesheet" href="/index.css">
-
+    <link rel="stylesheet" rel="preload" href="/assets/flexboxgrid.min.css">
+    <link rel="stylesheet" rel="preload" href="/index.css">
 
     <script src="/index.js" defer></script>
+
+    <link rel="manifest" href="/manifest.json">
 </head>
 <body>
 
@@ -193,7 +192,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-4 first-xs">
                 <div class="legit">
-                    <script src="https://static.legitscript.com/seals/7418467.js"></script>
+                    <!-- <script src="https://static.legitscript.com/seals/7418467.js"></script> -->
                 </div>
 			</div>
 			<div class="col-xs-4">

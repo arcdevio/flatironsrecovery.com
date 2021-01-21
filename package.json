@@ -5,7 +5,7 @@
   "main": "index.js",
   "devDependencies": {
     "flexboxgrid": "^6.3.1",
-    "muleify": "^5.4.0"
+    "muleify": "^5.4.1"
   },
   "scripts": {
     "test": "muleify -pw src dev -s dev",
@@ -15,8 +15,8 @@
     "type": "git",
     "url": "git+https://github.com/arcdevio/flatironsrecovery.com.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Arc IO",
+  "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/arcdevio/flatironsrecovery.com/issues"
   },
