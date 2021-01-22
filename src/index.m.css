@@ -352,6 +352,9 @@ details {
     color: rgb(var(--black));
     background-color: rgb(var(--white));
 }
+.linear-one {
+    background-image: linear-gradient(to bottom right, rgb(var(--blue)), rgba(var(--blue), 0.6));
+}
 
 /*accordion*/
 .accordion {
