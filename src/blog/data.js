@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'What is Sex Addiction, and is it Similar to Substance Addiction?',
+        author: 'Rachael Uris, MA',
+        categories: ['addictions', 'treatment'],
+        image: '/blog/images/sexaddiction-thumb.jpg',
+        path: '/blog/what-is-sex-addiction',
+        description: 'Sex addiction happens when sexual behaviors negatively impact our daily functioning, and we find ourselves unable to change our behaviors despite their negative consequences.',
+    },
+    {
         title: 'We Aren’t Here to Fix you Because You’re not Broken',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'addictions', 'treatment'],
