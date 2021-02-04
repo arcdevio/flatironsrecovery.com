@@ -1,27 +1,29 @@
 {
-  "name": "flatironsrecovery.com",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "devDependencies": {
-    "flexboxgrid": "^6.3.1",
-    "muleify": "^5.4.1"
-  },
-  "scripts": {
-    "test": "muleify -pw src dev -s dev",
-    "build": "rm -r dst/* && muleify -p src dst && muleify -p landing-page/ dst"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arcdevio/flatironsrecovery.com.git"
-  },
-  "author": "Arc IO",
-  "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/arcdevio/flatironsrecovery.com/issues"
-  },
-  "homepage": "https://github.com/arcdevio/flatironsrecovery.com#readme",
-  "dependencies": {
-    "erbium": "^2.0.1"
-  }
+    "name": "flatironsrecovery.com",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "devDependencies": {
+        "flexboxgrid": "^6.3.1",
+        "muleify": "^5.4.1"
+    },
+    "scripts": {
+        "test": "muleify -pw src dev -s dev",
+        "docs": "rm -r docs/* && muleify -p src docs && muleify -p landing-page docs",
+        "build": "rm -r dst/* && muleify -p src dst && muleify -p landing-page dst"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arcdevio/flatironsrecovery.com.git"
+    },
+    "author": "Arc IO",
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://github.com/arcdevio/flatironsrecovery.com/issues"
+    },
+    "homepage": "https://github.com/arcdevio/flatironsrecovery.com#readme",
+    "dependencies": {
+        "@aws-sdk/client-route-53": "^3.3.0",
+        "erbium": "^2.0.1"
+    }
 }

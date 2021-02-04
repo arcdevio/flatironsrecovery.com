@@ -1,15 +1,14 @@
 {
-	"profile": "arc",
+	"profile": "host-cli",
 	"domain": "flatironsrecovery.com",
-	"folder": "dst",
-	"redirects": [
-		["/iop", "/"],
-		["/test/redirect", "/"],
-		["/blog/EMDR-in-early-addiction-recovery-treatment", "/blog/emdr-in-early-addiction-recovery-treatment"]
-	],
+	"originSlash": true,
+	"origin": "arcdevio.github.io/flatironsrecovery.com",
+	"redirects": {
+		"/iop": "/",
+		"/blog/EMDR-in-early-addiction-recovery-treatment": "/blog/emdr-in-early-addiction-recovery-treatment"
+	},
 	"to": [
-		"moberg@flatironsrecovery.com",
-		"alex.steven.elias@gmail.com"
+		"moberg@flatironsrecovery.com"
 	],
 	"cc": []
 }
