@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'The Link Between Eating Disorders and Drug or Alcohol Addiction',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'addictions', 'treatment'],
+        image: '/blog/images/eatingdisorder-thumb.jpg',
+        path: '/blog/eating-disorders-and-drug-or-alcohol-addiction',
+        description: 'Contrary to popular belief, eating disorders do not only affect the Western world, and they don’t only affect females either; they are equal opportunity conditions.',
+    },
+    {
         title: 'What is Sex Addiction, and is it Similar to Substance Addiction?',
         author: 'Rachael Uris, MA',
         categories: ['addictions', 'treatment'],
