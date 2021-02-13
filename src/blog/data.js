@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'Benefits of Traveling for Treatment',
+        author: 'Rachael Uris, MA',
+        categories: ['treatment', 'community'],
+        image: '/blog/images/travelingfortreatment-thumb.jpg',
+        path: '/blog/benefits-of-traveling-for-treatment',
+        description: 'Addiction to drugs or alcohol develops in, and continues to be reinforced by our environment, or the “systems” in which we find ourselves, such as our family, friends, or community.',
+    },
+    {
         title: 'The Link Between Eating Disorders and Drug or Alcohol Addiction',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'addictions', 'treatment'],
