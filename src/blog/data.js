@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'What Does Treatment for Heroin Look Like?',
+        author: 'Rachael Uris, MA',
+        categories: [ 'mental-health', 'addictions', 'treatment' ],
+        image: '/blog/images/heroin-thumb.jpg',
+        path: '/blog/what-does-treatment-for-heroin-look-like',
+        description: 'Heroin is a narcotic in the opiate family that originates from morphine. Heroin is an illicit drug that is sold in a white, brown, or black powder.',
+    },
+    {
         title: 'Benefits of Traveling for Treatment',
         author: 'Rachael Uris, MA',
         categories: ['treatment', 'community'],
@@ -9,7 +17,7 @@ var articles = [
     },
     {
         title: 'The Link Between Eating Disorders and Drug or Alcohol Addiction',
-        author: 'Rachael Uris, MA',
+        author: 'Sarah Levin, LPC',
         categories: ['mental health', 'addictions', 'treatment'],
         image: '/blog/images/eatingdisorder-thumb.jpg',
         path: '/blog/eating-disorders-and-drug-or-alcohol-addiction',
