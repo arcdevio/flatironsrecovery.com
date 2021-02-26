@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'How Buddhist-Inspired Addiction Treatment is Different',
+        author: 'Rachael Uris, MA',
+        categories: ['mental-health', 'addictions', 'treatment'],
+        image: '/blog/images/howbuddhism-thumb.jpg',
+        path: '/blog/buddhist-inspired-addiction-treatment',
+        description: 'All treatment modalities that contain elements of Buddhist practices have been scientifically proven to treat a wide array of mental health issues, including addiction to drugs and alcohol.',
+    },
+    {
         title: 'What Does Treatment for Heroin Look Like?',
         author: 'Rachael Uris, MA',
         categories: [ 'mental-health', 'addictions', 'treatment' ],
