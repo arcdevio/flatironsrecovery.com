@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'Cocaine and Anxiety: Can cocaine cause an anxiety disorder?',
+        author: 'Rachael Uris, MA',
+        categories: ['mental-health', 'addictions', 'treatment', 'community'],
+        image: '/blog/images/cocaineandanxiety-thumb.jpg',
+        path: '/blog/can-cocaine-cause-anxiety-disorder',
+        description: 'Unfortunately, cocaine use is most likely going to make a person’s anxiety worse in the long run, and may even bring about clinical anxiety for someone who has not previously struggled with anxiety in the past.',
+    },
+    {
         title: 'How Buddhist-Inspired Addiction Treatment is Different',
         author: 'Rachael Uris, MA',
         categories: ['mental-health', 'addictions', 'treatment'],
