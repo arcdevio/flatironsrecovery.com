@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'How Art Therapy Helps to Heal the Wounds of Addiction',
+        author: 'Rachael Uris, MA',
+        categories: ['mental-health', 'addictions', 'treatment', 'community'],
+        image: '/blog/images/artterapy2-thumb.jpg',
+        path: '/blog/how-art-therapy-helps-to-heal-the-wounds-of-addiction',
+        description: 'When an addiction treatment center includes art therapy in their recovery curriculum, it gives clients the opportunity to process whatever feelings may be under the surface but inaccessible to the logical brain.',
+    },
+    {
         title: 'Cocaine and Anxiety: Can cocaine cause an anxiety disorder?',
         author: 'Rachael Uris, MA',
         categories: ['mental-health', 'addictions', 'treatment', 'community'],
