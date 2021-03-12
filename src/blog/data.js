@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'Can I get Addicted to Marijuana?',
+        author: 'Rachael Uris, MA',
+        categories: ['addictions', 'treatment'],
+        image: '/blog/images/marijuana-thumb.jpg',
+        path: '/blog/can-i-get-addicted-to-marijuana',
+        description: 'Unfortunately, however, 30% of those who use marijuana have a form of what is called Marijuana Use Disorder, the most severe cases of which have developed a serious addiction to the drug.',
+    },
+    {
         title: 'How Art Therapy Helps to Heal the Wounds of Addiction',
         author: 'Rachael Uris, MA',
         categories: ['mental-health', 'addictions', 'treatment', 'community'],
