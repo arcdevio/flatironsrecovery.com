@@ -1,6 +1,6 @@
 var articles = [
     {
-        title: 'Why are Healthy Boundaries so Important in Addiction Recovery',
+        title: 'Why are Healthy Boundaries so Important in Addiction Recovery?',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'community', 'relationships', 'addictions', 'treatment'],
         image: '/blog/images/healthyboundaries-thumb.jpg',
@@ -13,7 +13,7 @@ var articles = [
         categories: ['addictions', 'treatment'],
         image: '/blog/images/marijuana-thumb.jpg',
         path: '/blog/can-i-get-addicted-to-marijuana',
-        description: 'Unfortunately, however, 30% of those who use marijuana have a form of what is called Marijuana Use Disorder, the most severe cases of which have developed a serious addiction to the drug.',
+        description: 'Unfortunately, 30% of those who use marijuana have a form of what is called Marijuana Use Disorder, the most severe cases of which have developed a serious addiction to the drug.',
     },
     {
         title: 'How Art Therapy Helps to Heal the Wounds of Addiction',
