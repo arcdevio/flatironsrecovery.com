@@ -5,12 +5,13 @@
     "description": "",
     "main": "index.js",
     "devDependencies": {
-        "flexboxgrid": "^6.3.1",
-        "erbium": "^2.0.1"
+        "erbium": "^2.0.1",
+        "flexboxgrid": "^6.3.1"
     },
     "scripts": {
-        "test": "muleify -pw src dev -s dev",
-        "build": "rm -r docs/* && muleify -p src docs && muleify -p landing-page docs"
+        "t": "muleify -pw src dev -s dev",
+        "l": "muleify -pw landing dev -s dev",
+        "b": "rm -r docs/* && muleify -p src docs && muleify -p landing docs"
     },
     "repository": {
         "type": "git",
