@@ -1,5 +1,6 @@
 
-(function(){'use strict';
+(function () {
+    'use strict';
     var font = document.createElement('link');
     font.async = true;
     font.rel = 'stylesheet';
@@ -8,7 +9,8 @@
 }());
 
 // share
-(function(){'use strict';
+(function () {
+    'use strict';
     if (!window.navigator.share) return;
 
     var share = document.querySelector('.share');
@@ -54,7 +56,8 @@
 }());
 
 // call
-(function(){'use strict';
+(function () {
+    'use strict';
     var call = document.querySelector('.call');
     if (!call) return;
 
@@ -90,7 +93,8 @@
     call.insertAdjacentElement('afterbegin', icon);
 }());
 
-(function(){'use strict';
+(function () {
+    'use strict';
     var banner = document.querySelector('.banner');
 
     if (window.localStorage.getItem('banner')) {
@@ -107,7 +111,8 @@
 
 }());
 
-(function(){'use strict';
+(function () {
+    'use strict';
     var form = document.querySelector('form');
 
     if (!form) return;
@@ -134,6 +139,7 @@
             .then(function () { form.reset(); })
             .catch(function (error) { console.log(error); });
 
+        return false;
     });
 
 }());
