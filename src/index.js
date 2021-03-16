@@ -126,7 +126,7 @@
         body.$domain = 'flatironsrecovery.com';
         body.$to = 'moberg@flatironsrecovery.com';
 
-        var url = 'https://2vaid6dwk1.execute-api.us-west-2.amazonaws.com/submit';
+        var url = '/email';
         var options = {
             mode: 'cors',
             method: 'POST',
