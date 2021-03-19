@@ -1,5 +1,21 @@
 var articles = [
     {
+        title: 'Recognizing the Signs of High-Functioning Alcoholism',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'community', 'relationships', 'addictions', 'treatment'],
+        image: '/blog/images/highfunctioningalcoholism-rename.jpg',
+        path: '/blog/recognizing-the-signs-of-high-functioning-alcoholism',
+        description: 'Some may believe that to truly be an alcoholic, these consequences must be so severe that the person’s life is completely falling apart.',
+    },
+    {
+        title: 'How Mindfulness and Meditation Helps with Drug and Alcohol Cravings',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'community', 'relationships', 'addictions', 'treatment'],
+        image: '/blog/images/mindfulness2-thumb.jpg',
+        path: '/blog/mindfulness-meditation-helps-with-cravings',
+        description: 'Mindfulness is a tool that has been scientifically proven to help lessen a wide array of mental health symptoms common in early addiction recovery, including cravings to use drugs or alcohol.',
+    },
+    {
         title: 'Why are Healthy Boundaries so Important in Addiction Recovery?',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'community', 'relationships', 'addictions', 'treatment'],
