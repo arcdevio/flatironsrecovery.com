@@ -8,7 +8,7 @@ var articles = [
         description: 'Some may believe that to truly be an alcoholic, these consequences must be so severe that the person’s life is completely falling apart.',
     },
     {
-        title: 'How Mindfulness and Meditation Helps with Drug and Alcohol Cravings',
+        title: 'How Mindfulness and Meditation Help with Drug and Alcohol Cravings',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'community', 'relationships', 'addictions', 'treatment'],
         image: '/blog/images/mindfulness2-thumb.jpg',
