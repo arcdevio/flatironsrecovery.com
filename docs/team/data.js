@@ -43,12 +43,12 @@ window.Global.staff = [
         title: "House Manager",
         descriptions: ['Jaroed is a house manager at Flatirons Recovery’s structured recovery residence. He is completing his first year of working in the treatment industry, after having been through the treatment process as a client.', 'Working as a house manager at Flatirons Recovery, Jaroed is part of the recovery housing team that introduces and supports 12-step participation with clients. He also organizes attendance at 12-step meetings, day-to-day operations for clients when they are in housing, and supports them in the beginning of their recovery journey, in part by sharing his personal recovery experiences.', '“My main goal when the clients come in,” he says, “is to show them that they can live a happy and fulfilling life sober. I try to inspire hope, because I know what it feels like to be hopeless.”', 'Jaroed spends his free time with his wife, daughter, and pets. He also enjoy disc golf, music, art, and exploring new interests.', 'Jaroed prioritizes his recovery by staying active in the 12-step community and working on his personal growth one day at a time.']
     },
-    {
-        image: "./team/images/Layne-Jeffcoat.jpg",
-        name: "Layne Jeffcoat",
-        title: "House Manager",
-        descriptions: ['Layne has been involved in the greater-Denver recovery community for over two years.','He has a passion for helping people get involved in a program of recovery','“As someone who felt hopeless about being able to change my life and stay sober,” Layne says, “I now love being able to share my experience with others who feel the same way. Watching people’s lives change is such an amazing experience and one that I treasure.”', 'Outside of work, Layne spends his free time skiing and being active in the recovery community in Denver.']
-    },
+    // {
+    //     image: "./team/images/Layne-Jeffcoat.jpg",
+    //     name: "Layne Jeffcoat",
+    //     title: "House Manager",
+    //     descriptions: ['Layne has been involved in the greater-Denver recovery community for over two years.','He has a passion for helping people get involved in a program of recovery','“As someone who felt hopeless about being able to change my life and stay sober,” Layne says, “I now love being able to share my experience with others who feel the same way. Watching people’s lives change is such an amazing experience and one that I treasure.”', 'Outside of work, Layne spends his free time skiing and being active in the recovery community in Denver.']
+    // },
     {
         image: "./team/images/kelly-miller.jpg",
         name: "Kelly Miller",
