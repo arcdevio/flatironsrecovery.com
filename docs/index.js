@@ -133,11 +133,25 @@
             body: JSON.stringify(body)
         };
 
+        var button = form.querySelector('[type="submit"]');
+        button.disabled = true;
+        button.style.cursor = 'wait';
+        button.style.backgroundColor = 'grey';
+
         window.fetch(url, options)
-            .then(function (response) { return response.json(); })
-            .then(function (data) { console.log(data); })
-            .then(function () { form.reset(); })
-            .catch(function (error) { console.log(error); });
+            // .then(function (response) { return response.json(); })
+            .then(function (response) {
+                if (response.status !== 200) throw new Error(response.statusText);
+                form.reset();
+                button.disabled = false;
+                button.style.cursor = 'not-allowed';
+                button.style.backgroundColor = 'green';
+                button.value = 'Success: Form Sent';
+            }).catch(function (error) {
+                button.style.cursor = 'not-allowed';
+                button.style.backgroundColor = 'red';
+                button.value = 'Error' + (error.message ? ': ' + error.message : '');
+            });
 
         return false;
     });

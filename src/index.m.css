@@ -38,8 +38,8 @@
     overflow-wrap: break-word;
 	font-family: 'Raleway', sans-serif;
     transition:
-        background ease-in-out 200ms,
-        background-color ease-in-out 200ms;
+        background linear 200ms,
+        background-color linear 200ms;
 }
 body, html {
     width: 100%;
@@ -519,7 +519,6 @@ details {
     .main {
         height: 70vh;
     }
-
 }
 @media screen and (max-height: 600px) {
     .main {
