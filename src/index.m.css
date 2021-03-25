@@ -66,23 +66,34 @@ h1 {
     margin: 0.5rem;
     padding: 0.5rem;
     font-size: 4.6rem;
+    text-transform: uppercase;
 }
-h2 {
+/* h2 {
     margin: 0.5rem;
     padding: 0.5rem;
     font-size: 3rem;
     font-weight: 300;
+} */
+h2 {
+    padding: 0.5rem;
+    font-weight: 100;
+    font-size: 2.4rem;
+    margin: 0 0.5rem;
 }
 h3 {
     padding: 0.5rem;
     font-weight: 100;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 0 0.5rem;
-    text-transform: uppercase;
 }
 h4 {
     margin: 0.5rem;
     padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.sub-heading {
+    margin: 1rem 0.5rem;
     font-weight: 500;
     font-size: 1.3rem;
 }
@@ -223,8 +234,9 @@ details {
 .main h1 {
     font-size: clamp(2rem, 5vw, 4rem);
 }
-.main h3 {
+.main h2 {
     color: rgb(var(--white));
+    text-transform: capitalize;
     background: rgb(var(--black));
     font-size: clamp(1rem, 2.5vw, 2rem);
 }
@@ -240,7 +252,7 @@ details {
     margin-top: 6rem;
     text-align: center;
 }
-.gradient > div h3 {
+.gradient > div h2 {
     border-radius: 6px;
 }
 .cover {
