@@ -1,5 +1,21 @@
 var articles = [
     {
+        title: 'What is Holistic Treatment for Methamphetamine Addiction?',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'community', 'addictions', 'treatment'],
+        image: '/blog/images/yoga-thumb.jpg',
+        path: '/blog/can-yoga-help-with-overcoming-addiction',
+        description: 'At Flatirons Recovery, we integrate yoga specifically tailored towards early addiction recovery into our programming because we know how extraordinarily beneficial it is to our clients.',
+    },
+    {
+        title: 'What is Holistic Treatment for Methamphetamine Addiction?',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'community', 'addictions', 'treatment'],
+        image: '/blog/images/holisticmethtreatment-thumb.jpg',
+        path: '/blog/what-is-holistic-treatment-for-methamphetamine-addiction',
+        description: 'We consider methamphetamine addiction to be a coping mechanism for deeper issues in a person’s life, such as underlying depression, anxiety, stress, or trauma.',
+    },
+    {
         title: 'Recognizing the Signs of High-Functioning Alcoholism',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'community', 'relationships', 'addictions', 'treatment'],
