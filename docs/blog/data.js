@@ -1,6 +1,6 @@
 var articles = [
     {
-        title: 'What is Holistic Treatment for Methamphetamine Addiction?',
+        title: 'Can Yoga Help with Overcoming Addiction?',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'community', 'addictions', 'treatment'],
         image: '/blog/images/yoga-thumb.jpg',
