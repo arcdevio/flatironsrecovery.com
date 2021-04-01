@@ -157,3 +157,14 @@
     });
 
 }());
+
+(function () {
+    'use strict';
+    document.addEventListener('DOMContentLoaded', function () {
+        var hash = window.location.hash;
+        if (hash) {
+            window.location.hash = '';
+            window.location.hash = hash;
+        }
+    });
+}());
