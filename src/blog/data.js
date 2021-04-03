@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'What is the Difference Between CBD and THC?',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'community', 'addictions', 'treatment'],
+        image: '/blog/images/cbd-thumb.jpg',
+        path: '/blog/what-is-the-difference-between-cbd-and-thc',
+        description: 'CBD, or Cannabidiol, is the second most prevalent compound found in cannabis. It can be derived from either hemp or marijuana, though is most often forced from hemp.',
+    },
+    {
         title: 'Can Yoga Help with Overcoming Addiction?',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'community', 'addictions', 'treatment'],
