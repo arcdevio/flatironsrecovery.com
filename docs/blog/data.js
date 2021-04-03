@@ -1,5 +1,21 @@
 var articles = [
     {
+        title: '6 Ways to Enjoy a Sober Spring in Boulder',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'community', 'addictions', 'treatment'],
+        image: '/blog/images/6ways-thumb.jpg',
+        path: '/blog/6-ways-to-enjoy-a-sober-spring-in-boulder',
+        description: 'This couldn’t apply more to springtime in Boulder Colorado, right at the foothills of the Rocky Mountains. Blue skies, vibrant, abundant sunshine, and budding spring flowers under the feet of the snow capped mountains.',
+    },
+    {
+        title: 'What is the Difference Between CBD and THC?',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'community', 'addictions', 'treatment'],
+        image: '/blog/images/cbd-thumb.jpg',
+        path: '/blog/what-is-the-difference-between-cbd-and-thc',
+        description: 'CBD, or Cannabidiol, is the second most prevalent compound found in cannabis. It can be derived from either hemp or marijuana, though is most often forced from hemp.',
+    },
+    {
         title: 'Can Yoga Help with Overcoming Addiction?',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'community', 'addictions', 'treatment'],
