@@ -5,7 +5,7 @@ var articles = [
         categories: ['mental health', 'community', 'addictions', 'treatment'],
         image: '/blog/images/6ways-thumb.jpg',
         path: '/blog/6-ways-to-enjoy-a-sober-spring-in-boulder',
-        description: 'This couldn’t apply more to springtime in Boulder Colorado, right at the foothills of the Rocky Mountains. Blue skies, vibrant, abundant sunshine, and budding spring flowers under the feet of the snow capped mountains.',
+        description: 'You know what they say, "It’s a beautiful day to be sober!" This couldn’t apply more to springtime in Boulder Colorado, right at the foothills of the Rocky Mountains.',
     },
     {
         title: 'What is the Difference Between CBD and THC?',
