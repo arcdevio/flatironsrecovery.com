@@ -9,22 +9,26 @@
     .main {
         background-image: url('/facility/IMG_0309.jpg');
     }
-    .gallery > .item {
+
+    .gallery>.item {
         overflow: hidden;
         max-height: 260px;
         margin: 0.5rem auto;
     }
-    .gallery > div img {
+
+    .gallery>div img {
         width: 100%;
     }
-	.e-gallery {
-		margin: auto;
-		display: flex;
-		flex: 0 1 auto;
-		flex-wrap: wrap;
-		max-width: 1400px;
-		flex-direction: row;
-	}
+
+    .e-gallery {
+        margin: auto;
+        display: flex;
+        flex: 0 1 auto;
+        flex-wrap: wrap;
+        max-width: 1400px;
+        flex-direction: row;
+    }
+
     iframe {
         width: 100%;
     }
@@ -65,7 +69,7 @@
             </div>
         </ul>
         <div class="row center-xs">
-            <a class="button border" href="tel:303-578-4536" data-track="click: phone, click">Call Now</a>
+            <a class="button border" href="tel:303-578-4536">Call Now</a>
         </div>
     </div>
 </div>
@@ -96,6 +100,6 @@
 
 <script>
     var gallery = document.querySelector('.gallery');
-    
+
     erbium.gallery.create({ target: gallery });
 </script>
