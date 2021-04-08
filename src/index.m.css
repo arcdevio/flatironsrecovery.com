@@ -497,6 +497,9 @@ details {
 .legit img {
    width: auto;
 }
+iframe {
+    width: 100%;
+}
 @media screen and (max-width: 1000px) {
     .main h1 {
         font-size: 2.3rem;
