@@ -9,7 +9,7 @@
         "flexboxgrid": "^6.3.1"
     },
     "scripts": {
-        "t": "muleify -pw src dev -s dev",
+        "test": "muleify -pw src dev -s dev",
         "l": "muleify -pw landing dev -s dev",
         "b": "rm -r docs/* && muleify -p src docs && muleify -p landing docs"
     },
