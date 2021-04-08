@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="50"
+   width="50"
+   id="svg865"
+   version="1.1"
+   viewBox="0 0 50 50"
+   role="img"
+   class="svg-inline--fa fa-youtube fa-w-18"
+   data-icon="youtube"
+   data-prefix="fab"
+   focusable="false"
+   aria-hidden="true">
+  <metadata
+     id="metadata871">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs869" />
+  <path
+     style="fill:#ff0000;stroke-width:0.06224128;fill-opacity:1"
+     id="path863"
+     d="M 41.285743,16.789316 C 40.894805,15.31731 39.742967,14.158004 38.280484,13.764578 35.629628,13.049674 25,13.049674 25,13.049674 c 0,0 -10.629568,0 -13.280486,0.714904 -1.462483,0.393488 -2.6143199,1.552732 -3.0052579,3.024739 -0.7102972,2.668096 -0.7102972,8.234832 -0.7102972,8.234832 0,0 0,5.566736 0.7102972,8.234834 0.390938,1.472006 1.5427749,2.583013 3.0052579,2.976441 C 14.370432,36.950327 25,36.950327 25,36.950327 c 0,0 10.629566,0 13.280484,-0.714903 1.462483,-0.393428 2.614321,-1.504435 3.005259,-2.976441 0.710298,-2.668097 0.710298,-8.234834 0.710298,-8.234834 0,0 0,-5.566736 -0.710298,-8.234833 z M 21.523512,30.078329 V 19.96997 l 8.884259,5.054304 z" />
+  <path
+     id="path1474"
+     d="M 25,50 C 38.807,50 50,38.807 50,25 50,11.192999 38.807,-2.25e-7 25,-2.25e-7 11.193,-2.25e-7 -2.05e-7,11.192999 -2.05e-7,25 -2.05e-7,38.807 11.193,50 25,50 Z m 0,-3 C 37.15,47 47,37.15 47,25 47,12.849999 37.15,2.9999996 25,2.9999996 12.85,2.9999996 2.9999998,12.849999 2.9999998,25 2.9999998,37.15 12.85,47 25,47 Z"
+     style="fill:#ff0000;fill-rule:evenodd;fill-opacity:1" />
+</svg>
