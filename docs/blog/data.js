@@ -1,5 +1,21 @@
 var articles = [
     {
+        title: 'Parenting After Rehab: How to Rebuild Your Connection to Your Children in Recovery',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'community', 'addictions', 'treatment'],
+        image: '/blog/images/parentingafterrehab-thumb.jpg',
+        path: '/blog/how-to-rebuild-your-connection-to-your-children-in-recovery',
+        description: 'As you go through addiction treatment, the ways in which your addiction has affected your loved ones, and especially your children, may begin to unsurface.',
+    },
+    {
+        title: 'How Flatirons Recovery’s Model is Different from Traditional Residential Care',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'community', 'addictions', 'treatment'],
+        image: '/blog/images/howflatironsrecoverysmodel-thumb.jpg',
+        path: '/blog/how-our-model-is-different',
+        description: 'Understanding the world of rehab and addiction treatment centers can sometimes be difficult.',
+    },
+    {
         title: '6 Ways to Enjoy a Sober Spring in Boulder',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'community', 'addictions', 'treatment'],
