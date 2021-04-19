@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'The Importance of Being of Service in Addiction Recovery',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'community', 'addictions', 'treatment'],
+        image: '/blog/images/beingofservice-thumb.jpg',
+        path: '/blog/the-importance-of-being-of-service-in-addiction-recovery',
+        description: 'An important part of a truly holistic recovery from addiction is being of service to others.',
+    },
+    {
         title: 'Parenting After Rehab: How to Rebuild Your Connection to Your Children in Recovery',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'community', 'addictions', 'treatment'],
