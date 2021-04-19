@@ -1,5 +1,13 @@
 var articles = [
     {
+        title: 'What is DBT, and is it an Effective Treatment for Addiction?',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'addictions', 'treatment'],
+        image: '/blog/images/dbt-thumb.jpg',
+        path: '/blog/dbt-is-it-an-effective-treatment-for-addiction',
+        description: 'Dialectical Behavior Therapy (DBT) is a highly-effective an evidence-based treatment modality that is used to help treat a wide range of mental health and substance abuse disorders.',
+    },
+    {
         title: 'The Importance of Being of Service in Addiction Recovery',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'community', 'addictions', 'treatment'],
