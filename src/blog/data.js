@@ -1,8 +1,24 @@
 var articles = [
     {
+        title: 'How to get a family member into rehab',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'treatment', 'addictions', 'relationships'],
+        image: '/blog/images/howtogetafamily-thumb.jpg',
+        path: '/blog/how-to-get-a-family-member-into-rehab',
+        description: 'Watching someone you love slip into the grips of drug or alcohol addiction can be unbearably painful.',
+    },
+    {
+        title: 'What are the Alternatives to AA (Alcoholics Anonymous)?',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'addictions', 'community'],
+        image: '/blog/images/alternativestoaa-thumb.jpg',
+        path: '/blog/what-are-the-alternatives-to-aa',
+        description: 'Alcoholics Anonymous (AA), Narcotics Anonymous (NA), and other Twelve Step Programing can be a great way to maintain sobriety, connect with other people in recovery from substance abuse, and continue to emotionally and spiritually grow in life after addiction.',
+    },
+    {
         title: 'What is DBT, and is it an Effective Treatment for Addiction?',
         author: 'Rachael Uris, MA',
-        categories: ['mental health', 'addictions', 'treatment'],
+        categories: ['mental health', 'addictions', 'treatment', 'relationships'],
         image: '/blog/images/dbt-thumb.jpg',
         path: '/blog/dbt-is-it-an-effective-treatment-for-addiction',
         description: 'Dialectical Behavior Therapy (DBT) is a highly-effective an evidence-based treatment modality that is used to help treat a wide range of mental health and substance abuse disorders.',
@@ -18,7 +34,7 @@ var articles = [
     {
         title: 'Parenting After Rehab: How to Rebuild Your Connection to Your Children in Recovery',
         author: 'Rachael Uris, MA',
-        categories: ['mental health', 'community', 'addictions', 'treatment'],
+        categories: ['mental health', 'relationships', 'addictions', 'treatment'],
         image: '/blog/images/parentingafterrehab-thumb.jpg',
         path: '/blog/how-to-rebuild-your-connection-to-your-children-in-recovery',
         description: 'As you go through addiction treatment, the ways in which your addiction has affected your loved ones, and especially your children, may begin to unsurface.',
@@ -26,7 +42,7 @@ var articles = [
     {
         title: 'How Flatirons Recovery’s Model is Different from Traditional Residential Care',
         author: 'Rachael Uris, MA',
-        categories: ['mental health', 'community', 'addictions', 'treatment'],
+        categories: ['mental health', 'addictions', 'treatment'],
         image: '/blog/images/howflatironsrecoverysmodel-thumb.jpg',
         path: '/blog/how-our-model-is-different',
         description: 'Understanding the world of rehab and addiction treatment centers can sometimes be difficult.',
