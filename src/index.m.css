@@ -406,8 +406,10 @@ details {
     background-repeat: no-repeat;
 }
 .banner {
+    bottom: 0;
     width: 100%;
     color: white;
+    position: absolute;
     background-color: rgb(var(--blue));
 }
 .banner > button {
