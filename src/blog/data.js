@@ -1,5 +1,21 @@
 var articles = [
     {
+        title: 'Can you get Addicted to Benzodiazepines if you Take Them as Prescribed?',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'treatment', 'addictions'],
+        image: '/blog/images/benzos-thumb.jpg',
+        path: '/blog/can-you-get-addicted-to-benzodiazepines-if-you-take-them-as-prescribed',
+        description: 'Benzodiazepines are a group of prescription drugs that are used to treat anxiety, PTSD, panic disorders, and insomnia, among other things.',
+    },
+    {
+        title: 'How to Start a Basic Meditation Practice',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'treatment', 'addictions'],
+        image: '/blog/images/meditation-thumb.jpg',
+        path: '/blog/how-to-start-a-basic-meditation-practice',
+        description: 'The benefits of sitting meditation and other mindfulness practices have been scientifically proven to help dramatically with a wide array of mental health issues, including drug and alcohol addiction.',
+    },
+    {
         title: 'How to get a family member into rehab',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'treatment', 'addictions', 'relationships'],
