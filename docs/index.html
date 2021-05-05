@@ -180,6 +180,19 @@
     </div>
 </div>
 
+<div class="video">
+    <div>
+        <div>
+            <h1 id="title"></h1>
+            <button id="close" class="button white">X</button>
+        </div>
+        <iframe id="player" frameborder="0" allowfullscreen="1"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="900" height="600"
+            src=""></iframe>
+        <p id="description"></p>
+    </div>
+</div>
+
 <div class="row">
     <div class="col-xs-12 col-sm">
         <div class="wrap">
@@ -202,11 +215,11 @@
                         that meets clients as they are, in order to guide them through the process of healing from a
                         wide range of substance use, and <a href="/mental-health">mental health disorders</a>.</p>
                 </div>
-                <div class="col-xs-12 col-lg-9">
-                    <iframe id="player" frameborder="0" allowfullscreen="1"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" height="300"
-                        src="https://www.youtube.com/embed/-gf96cw_JOc?controls=0"></iframe>
-                        <a class="button border" href="/about">Learn More</a>
+                <div class="col-sm-12 col-lg-9">
+                    <a id="open">
+                        <img src="./assets/images/video-thumb.jpg" alt="">
+                    </a>
+                    <a class="button border" href="/about">Learn More</a>
                 </div>
             </div>
         </div>
@@ -333,9 +346,46 @@
             <input class="button blue" type="submit" value="Submit">
         </div>
     </form>
-    <p><em>All information submitted to us is completely confidential. See our <a href="/confidentiality">HIPPA
-                Confidentiality Policy</a>.</em></p>
+    <p><em>All information submitted to us is completely confidential. See our <a href="/confidentiality">HIPPA Confidentiality Policy</a>.</em></p>
 </div>
+
+<script type="text/javascript">
+    var close = document.querySelector('#close');
+    var player = document.querySelector('#player');
+    var videoModal = document.querySelector('.video');
+    var title = document.querySelector('#title');
+    var description = document.querySelector('#description');
+
+    var method = function (video) {
+        player.src = 'https://www.youtube.com/embed/' + video.video + '?autoplay=1&modestbranding=1&origin=https://flatironsrecovery.com';
+
+        videoModal.classList.toggle('active');
+        title.innerText = video.title;
+        description.innerText = video.description;
+
+        document.documentElement.style.overflow = 'hidden';
+    };
+
+    var video = {
+        title: 'Flatirons Recovery Center',
+        image: './assets/images/video-thumb.jpg',
+        style: 'background-color: rgba(45, 32, 25, 0.8);',
+        video: '-gf96cw_JOc',
+        description: 'A video of the Flatirons Recovery addiction treatment office space. Call us today to learn more about our addiction treatment program!'
+    };
+
+    var link = document.querySelector('#open');
+
+    link.addEventListener('click', method.bind(null, video));
+
+    close.addEventListener('click', function (e) {
+        console.log(e);
+        e.target.parentNode.parentNode.parentNode.classList.toggle('active');
+        document.documentElement.style.overflow = 'initial';
+        player.src = '';
+    });
+</script>
+
     </main>
 
     <div class="yellow">
