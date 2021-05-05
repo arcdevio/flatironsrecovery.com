@@ -503,10 +503,77 @@ details {
 iframe {
     width: 100%;
 }
+.video {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    color: white;
+    height: 100%;
+    display: none;
+    position: fixed;
+    background: none;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.8);
+}
+.video.active {
+    display: flex;
+}
+.video > div > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+}
+.video h1 {
+    color: white;
+    flex-grow: 1;
+}
+.video > div {
+    height: 80%;
+    min-width: 872px;
+    position: fixed;
+    text-align: left;
+    margin: 10% auto;
+    padding-left: 2%;
+    max-width: 900px;
+    overflow: scroll;
+    padding-right: 2%;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+.video img {
+    border-radius: 3px;
+}
+.video > div::-webkit-scrollbar { width: 0 !important }
+
+.videos {
+    margin: auto;
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    flex-direction: row;
+}
+.videos .thumb {
+    flex-grow: 1;
+    display: flex;
+    flex-basis: 0;
+    max-width: 50%;
+    max-height: 500px;
+    position: relative;
+    flex-direction: column;
+}
+.video iframe {
+    width: 100%;
+    min-height: 450px;
+}
 @media screen and (max-width: 1000px) {
     /* .main h1 {
         font-size: 2.3rem;
     } */
+    .video > div {
+        min-width: initial;
+    }
 }
 @media screen and (max-width: 600px) {
     h1 {
