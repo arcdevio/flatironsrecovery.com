@@ -1,7 +1,7 @@
 # flatironsrecovery.com
 
 Photo Demensions
-- header: 2440px X 900px
+- header: 1920px X 900px
 - blog thumbnail: 500px X 288px
 
 <!-- <a href="/addiction/alcohol">alcohol addiction</a>
