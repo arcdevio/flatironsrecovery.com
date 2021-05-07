@@ -1,5 +1,21 @@
 var articles = [
     {
+        title: 'What is “Structured” Sober Living and how is it Beneficial?',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'addiction', 'relationships', 'community'],
+        image: '/blog/images/sobeliving-thumb.jpg',
+        path: '/blog/what-is-structured-sober-living-and-how-is-it-beneficial',
+        description: 'Sober living facilities, also known as recovery residences, can be an excellent accompaniment to drug and alcohol rehab, both during and after treatment.',
+    },
+    {
+        title: 'Should I Tell my Employer About my Addiction?',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'treatment', 'addictions'],
+        image: '/blog/images/employer-thumb.jpg',
+        path: '/blog/should-i-tell-my-employer-about-my-addiction',
+        description: 'While there is a wide misconception that drug and alcohol addiction primarily affects those who are jobless and/or homeless, the truth is that over 70% of those who have a substance use disorder are employed.',
+    },
+    {
         title: 'Can you get Addicted to Benzodiazepines if you Take Them as Prescribed?',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'treatment', 'addictions'],
