@@ -305,10 +305,60 @@
 <div class="wrap" id="message">
     <form class="row">
         <div class="col-xs-12">
-            <h2>Message Us</h2>
-<p>To begin your healing journey from addiction simply fill out the form below, or call us at <a href="tel:303-578-4536">303-578-4536</a>.</p>
-<p>A member of our Admissions Team will reply to you as soon as possible to start the process, and to answer any questions that you may have about our treatment program.</p>
-<p>If you’d like Flatirons Recovery to <a href="/admission#verify-insurance">verify your insurance</a>, you may do that at any time.</p>
+            <form class="row">
+    <!-- <div class="col-xs-12">
+                <h3>send us a message</h3>
+            </div> -->
+    <div class="col-xs-12 col-sm-6">
+        <label>first name</label>
+        <input type="text" name="firstName" required>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>last name</label>
+        <input type="text" name="lastName" required>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>email</label>
+        <input type="text" name="email">
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>phone</label>
+        <input type="text" name="phone" required>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>payer source</label>
+        <select name="payer">
+            <option value="none" selected disabled>none</option>
+            <option value="no insruance">no insurance</option>
+            <option value="cash">cash</option>
+            <option value="medicare/medicaid">medicare/medicaid</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>how'd you hear about us</label>
+        <select name="referral">
+            <option value="none" selected disabled>none</option>
+            <option value="social media">social media</option>
+            <option value="doctor/therapist">doctor/therapist</option>
+            <option value="hospital system">hospital system</option>
+            <option value="search engine">search engine</option>
+            <option value="advertisement">advertisement</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+    <div class="col-xs-12">
+        <label>message</label>
+        <textarea name="message" required></textarea>
+    </div>
+    <div class="col-xs-12">
+        <input class="button blue" type="submit" value="Submit">
+    </div>
+</form>
+<p>
+    <em>All information submitted to us is completely confidential. See our <a href="/confidentiality">HIPPA
+            Confidentiality Policy</a>.</em>
+</p>
         </div>
         <div class="col-xs-12 col-sm-6">
             <label for="firstName">first name</label>

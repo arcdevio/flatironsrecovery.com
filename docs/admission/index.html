@@ -198,8 +198,63 @@
 
 <div class="wrap" id="verify-insurance">
     <h2>Verify Insurance</h2>
-    <h4>Complete form below to verify insurance benefits.</h4>
-    <form>
+    <h4>Complete form below to verify insurance benefits. A member on our admissions team will be in touch to follow up.</h4>
+        <form class="row">
+    <!-- <div class="col-xs-12">
+                <h3>send us a message</h3>
+            </div> -->
+    <div class="col-xs-12 col-sm-6">
+        <label>first name</label>
+        <input type="text" name="firstName" required>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>last name</label>
+        <input type="text" name="lastName" required>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>email</label>
+        <input type="text" name="email">
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>phone</label>
+        <input type="text" name="phone" required>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>payer source</label>
+        <select name="payer">
+            <option value="none" selected disabled>none</option>
+            <option value="no insruance">no insurance</option>
+            <option value="cash">cash</option>
+            <option value="medicare/medicaid">medicare/medicaid</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <label>how'd you hear about us</label>
+        <select name="referral">
+            <option value="none" selected disabled>none</option>
+            <option value="social media">social media</option>
+            <option value="doctor/therapist">doctor/therapist</option>
+            <option value="hospital system">hospital system</option>
+            <option value="search engine">search engine</option>
+            <option value="advertisement">advertisement</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+    <div class="col-xs-12">
+        <label>message</label>
+        <textarea name="message" required></textarea>
+    </div>
+    <div class="col-xs-12">
+        <input class="button blue" type="submit" value="Submit">
+    </div>
+</form>
+<p>
+    <em>All information submitted to us is completely confidential. See our <a href="/confidentiality">HIPPA
+            Confidentiality Policy</a>.</em>
+</p>
+
+    <!-- <form>
         <field>
             <legend>Contact</legend>
             <div class="row">
@@ -360,7 +415,7 @@
     <p>
         <em>All information submitted to us is completely confidential. See our <a href="/confidentiality">HIPPA
                 Confidentiality Policy</a>.</em>
-    </p>
+    </p> -->
 </div>
     </main>
 
