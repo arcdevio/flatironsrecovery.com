@@ -96,6 +96,7 @@
 (function () {
     'use strict';
     var banner = document.querySelector('.banner');
+    if (!banner) return;
 
     if (window.localStorage.getItem('banner')) {
         banner.hidden = true;
@@ -114,14 +115,12 @@
 (function () {
     'use strict';
     var form = document.querySelector('form');
-
     if (!form) return;
 
     form.addEventListener('submit', function (e) {
         e.preventDefault();
 
         var body = Object.fromEntries(new FormData(form));
-
         body.$name = body.$name || 'Contact';
         body.$domain = 'flatironsrecovery.com';
         body.$to = 'moberg@flatironsrecovery.com';
@@ -137,7 +136,6 @@
         button.disabled = true;
         button.style.cursor = 'wait';
         button.style.backgroundColor = 'grey';
-
         window.fetch(url, options)
             // .then(function (response) { return response.json(); })
             .then(function (response) {
