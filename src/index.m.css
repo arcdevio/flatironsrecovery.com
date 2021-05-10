@@ -68,12 +68,6 @@ h1 {
     font-size: 3.6rem;
     text-transform: uppercase;
 }
-/* h2 {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    font-size: 3rem;
-    font-weight: 300;
-} */
 h2 {
     padding: 0.5rem;
     font-weight: 100;
@@ -98,7 +92,7 @@ h4 {
     font-size: 1.3rem;
 }
 p, li {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.6rem;
     margin: 0.5rem;
     padding: 0.5rem;
@@ -577,13 +571,13 @@ iframe {
 }
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 2.6rem;
-    }
-    h2 {
         font-size: 2rem;
     }
+    h2 {
+        font-size: 1.6rem;
+    }
     h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     h4 {
         font-size: 1.1rem;
@@ -607,6 +601,12 @@ iframe {
     /* .main {
         height: 70vh;
     } */
+    .sub-heading {
+        font-size: 1.1rem;
+    }
+    .button {
+        margin: 0.6rem;
+    }
 }
 @media screen and (max-height: 600px) {
     /* .main {
