@@ -561,6 +561,29 @@ iframe {
     width: 100%;
     min-height: 450px;
 }
+.share i {
+    width: 1rem;
+    height: 1rem;
+    margin: 0.25rem;
+    display: inline-block;
+}
+
+.share {
+    right: 1vw;
+    bottom: 5rem;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    box-shadow: none;
+    text-align: center;
+    border-radius: 1rem;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    vertical-align: middle;
+    color: rgba(var(--share-color));
+    box-shadow: 0 0 6px 3px rgba(0,0,0,0.1);
+    background: rgba(var(--share-background));
+}
 @media screen and (max-width: 1000px) {
     /* .main h1 {
         font-size: 2.3rem;
