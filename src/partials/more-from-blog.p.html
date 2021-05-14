@@ -1,0 +1,43 @@
+<div class="wrap recent">
+    <hr>
+    <h3>More From the Blog</h3>
+</div>
+
+<script src="/blog/data.js"></script>
+
+<script>
+    var category = document.querySelector('#category').innerHTML;
+    var recent = document.querySelector('.recent');
+    
+    for (var article of articles) {
+        if (!article.categories.includes(category)) continue;
+        
+        var row = document.createElement('div');
+        var imgCol = document.createElement('div');
+        var img = document.createElement('img');
+        var body = document.createElement('div');
+        var h4 = document.createElement('h4');
+        var p = document.createElement('p');
+        var a = document.createElement('a');
+        
+        row.setAttribute('class', 'row');
+        imgCol.setAttribute('class', 'col-xs-12 col-sm-6 col-md-4');
+        img.setAttribute('src', article.image);
+        body.setAttribute('class', 'col-xs-12 col-sm-6 col-md-8');
+        a.setAttribute('class', 'button blue');
+        a.setAttribute('href', article.path);
+        a.innerText = 'Read More';
+
+        h4.innerText = article.title;
+        p.innerText = article.description;
+
+        imgCol.appendChild(img);
+        row.appendChild(imgCol);
+        body.appendChild(h4);
+        body.appendChild(p);
+        body.appendChild(a);
+        row.appendChild(body);
+        
+        recent.appendChild(row);
+    }
+</script>
