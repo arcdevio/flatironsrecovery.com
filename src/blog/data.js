@@ -6,7 +6,7 @@ var articles = [
         image: '/blog/images/sobeliving-thumb.jpg',
         path: '/blog/what-is-structured-sober-living-and-how-is-it-beneficial',
         description: 'Sober living facilities, also known as recovery residences, can be an excellent accompaniment to drug and alcohol rehab, both during and after treatment.',
-        categories: [  ]
+        categories: [ ]
     },
     {
         title: 'Should I Tell my Employer About my Addiction?',
@@ -15,7 +15,7 @@ var articles = [
         image: '/blog/images/employer-thumb.jpg',
         path: '/blog/should-i-tell-my-employer-about-my-addiction',
         description: 'While there is a wide misconception that drug and alcohol addiction primarily affects those who are jobless and/or homeless, the truth is that over 70% of those who have a substance use disorder are employed.',
-        categories: [  ]
+        categories: [ ]
     },
     {
         title: 'Can you get Addicted to Benzodiazepines if you Take Them as Prescribed?',
@@ -87,7 +87,7 @@ var articles = [
         image: '/blog/images/howflatironsrecoverysmodel-thumb.jpg',
         path: '/blog/how-our-model-is-different',
         description: 'Understanding the world of rehab and addiction treatment centers can sometimes be difficult.',
-        categories: [  ]
+        categories: [ 'featured' ]
     },
     {
         title: '6 Ways to Enjoy a Sober Spring in Boulder',
@@ -141,7 +141,7 @@ var articles = [
         image: '/blog/images/mindfulness2-thumb.jpg',
         path: '/blog/mindfulness-meditation-helps-with-cravings',
         description: 'Mindfulness is a tool that has been scientifically proven to help lessen a wide array of mental health symptoms common in early addiction recovery, including cravings to use drugs or alcohol.',
-        categories: ['alcohol', 'mindfulness' ]
+        categories: ['alcohol', 'mindfulness', 'featured' ]
     },
     {
         title: 'Why are Healthy Boundaries so Important in Addiction Recovery?',
@@ -150,7 +150,7 @@ var articles = [
         image: '/blog/images/healthyboundaries-thumb.jpg',
         path: '/blog/why-are-healthy-boundaries-so-important-in-addiction-recovery',
         description: 'Learning to set and maintain healthy boundaries is a common part of early addiction recovery, and a key in maintaining a healthy, thriving long-term sober life.',
-        categories: [  ]
+        categories: [ 'featured' ]
     },
     {
         title: 'Can I get Addicted to Marijuana?',
