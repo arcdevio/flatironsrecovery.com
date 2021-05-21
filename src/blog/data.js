@@ -1,5 +1,23 @@
 var articles = [
     {
+        title: 'Understanding insurance benefits for addiction treatment',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'addiction', 'relationships', 'community'],
+        image: '/blog/images/insurance-thumb.jpg',
+        path: '/blog/understanding-insurance-benefits-for-addiction-treatment',
+        description: 'Due to the Affordable Care Act (ACA), health insurance providers are required to cover treatment for substance use disorders and other behavioral health care.',
+        categories: []
+    },
+    {
+        title: 'Acceptance and Commitment Therapy (ACT) in Addiction Treatment',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'addiction', 'relationships', 'community'],
+        image: '/blog/images/ACT-thumb.jpg',
+        path: '/blog/act-in-addiction-treatment',
+        description: 'ACT is a type of evidence-based psychotherapy developed in 1982 to treat a wide array of mental health and substance use disorders.',
+        categories: []
+    },
+    {
         title: 'What is “Structured” Sober Living and how is it Beneficial?',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'addiction', 'relationships', 'community'],
