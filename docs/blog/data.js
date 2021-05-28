@@ -1,5 +1,23 @@
 var articles = [
     {
+        title: 'Now That You’re in Recovery, Can You Hang Out With Friends Who Drink',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'addiction', 'relationships', 'community'],
+        image: '/blog/images/friendswhodrink-thumb.jpg',
+        path: '/blog/now-that-youre-in-recovery-can-you-hang-out-with-friends-who-drink',
+        description: 'Is it possible to keep your friends who still drink or use drugs now that you are in recovery from addiction?',
+        categories: [ 'alcohol' ]
+    },
+    {
+        title: 'The Link Between Grief and Addiction',
+        author: 'Rachael Uris, MA',
+        categories: ['mental health', 'addiction', 'relationships', 'community'],
+        image: '/blog/images/grief-thumb.jpg',
+        path: '/blog/the-link-between-grief-and-addiction',
+        description: 'Addiction to drugs or alcohol are most often a maladaptive coping strategy for a deeper underlying issue.',
+        categories: []
+    },
+    {
         title: 'Understanding insurance benefits for addiction treatment',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'addiction', 'relationships', 'community'],
