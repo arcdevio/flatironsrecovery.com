@@ -18,7 +18,7 @@ var articles = [
         categories: []
     },
     {
-        title: 'Understanding insurance benefits for addiction treatment',
+        title: 'Understanding Insurance Benefits for Addiction Treatment',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'addiction', 'relationships', 'community'],
         image: '/blog/images/insurance-thumb.jpg',
