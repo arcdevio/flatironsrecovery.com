@@ -1,6 +1,6 @@
 var articles = [
     {
-        title: 'Now That You’re in Recovery, Can You Hang Out With Friends Who Drink',
+        title: 'Now That You’re in Recovery, Can You Hang Out With Friends Who Drink?',
         author: 'Rachael Uris, MA',
         categories: ['mental health', 'addiction', 'relationships', 'community'],
         image: '/blog/images/friendswhodrink-thumb.jpg',
